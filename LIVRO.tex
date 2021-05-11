@@ -48,9 +48,16 @@
 \marginparwidth=4em		% Tamanho da caixa de texto da nota laterial
 
 % Fontes
-\newfontfamily\formular{Formular}
-\newfontfamily\formularlight{Formular Light}
-\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Linux Libertine O}
+\hyphenation{Pu-ga-tchóv}
+\hyphenation{Du-ra-tchók}
+\setmainfont{BigCityGrotesquePro-Book.ttf}[
+				ItalicFont = BigCityGrotesquePro-BookIt.ttf ,
+				BoldFont = BigCityGrotesquePro-Bold.ttf]
+\newfontface\textlt{BigCityGrotesquePro-Light.ttf}
+\newfontface\textltit{BigCityGrotesquePro-LightIt.ttf}
+\newfontface\textmdbf{BigCityGrotesquePro-Medium.ttf}
+\newfontface\textbl{BigCityGrotesquePro-Black.ttf}
+
 
 
 % Estilos
@@ -60,8 +67,6 @@
 \makeoddfoot{baruch}{}{\footnotesize\thepage}{}
 \pagestyle{baruch}		
 \headstyles{baruch}
-
-% Testes
 
 
 \begin{document}
