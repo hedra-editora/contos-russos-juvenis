@@ -1,7 +1,31 @@
 % edlab-extra.sty
 
-\newcommand{\blankpage}{\newpage\hbox{~}\thispagestyle{empty}\newpage}
 
+% Didascálias
+\def\@endpartnot{\vspace{.60\textheight}\pagebreak}%
+\let\@endpart\@endpartnot
+\newenvironment{argumento}{%                % Didascálias antes de \part
+                \mbox{}\vfill%
+                \thispagestyle{empty}
+                \footnotesize\parindent0pt}{\thispagestyle{empty}\par}
+\newenvironment{didascalia}{%               % Resumos de abertura de capítulo
+            \footnotesize
+            \raggedright
+            \parindent0pt}{\par\medskip} 
+
+% Páginas brancas conforme par ou impar
+\newcommand{\blankpage}{\newpage\hbox{~}\thispagestyle{empty}\newpage}
+\newcommand{\blankAteven}{\ifodd\thepage\relax\else\blankpage\fi}
+\newcommand{\blankAtodd}{\ifodd\thepage\blankpage\else\relax\fi}
+
+% url
+% You can switch the style of printing using “\urlstyle{xx}”, where “xx” can be
+% any defined style. The pre-defined styles are “tt”, “rm”, “sf” and “same” which all
+% allow the same linebreaks but use different fonts — the first three select a specific
+% font and the “same” style uses the current text font. You can define your own
+% styles with different fonts and/or line-breaking by following the explanations
+
+\urlstyle{tt} % {same} mesma fonte; {sf} sem serifa 
 
 % Epigraph
 \epigraphfontsize{\footnotesize}			% tamanho da fonte
@@ -11,6 +35,22 @@
 % \epigraphtextposition{flushleft}
 % \epigraphsourceposition{flushright} 
 
+% Enumerate
+    % • Vertical spacing:
+    %     – topsep
+    %     – partopsep
+    %     – parsep
+    %     – itemsep
+    % • Horizontal spacing:
+    %     – leftmargin
+    %     – rightmargin
+    %     – listparindent
+    %     – labelwidth
+    %     – labelsep
+    %     – itemindent
+\setlist[itemize,1]{label={$\triangleright$},leftmargin=5pt,itemsep=0pt,parsep=0pt}
+
+% Quote
 \renewenvironment{quote}{%
   \begin{list}{}{%
     \setlength{\listparindent}{3ex}%
@@ -28,3 +68,40 @@
 }{%
   \end{list}%
 }
+
+% Asterisc
+\newcommand{\asterisc}{
+            \vspace{-1em plus .5em minus .5em}\begin{center} 
+                \adforn{47} 
+            \vspace{0em plus .5em}\end{center}
+            }
+%\newcommand{\asterisc}{\vspace{-1ex}\begin{center} ***\vspace{-2ex}\end{center}}
+%\newcommand{\asterisc}{\begin{center}\raisebox{-3pt}{*\,*\,*}\end{center}}
+
+% bibliografia 
+\RequirePackage{ifthen}
+\newcommand{\tit}[1]{\item[\MakeTextLowercase{\textsc{#1}}]}
+\newcommand{\titidem}{\item[\line(1,0){25}]}
+
+\newenvironment{bibliohedra}[1][bibliografia]{%
+    \frenchspacing\footnotesize
+	\ifthenelse{\equal{#1}{}}%
+        {\relax}{\section*{\MakeTextLowercase{#1}}\vspace{2ex}}
+		\begin{list}{}{
+				\setlength\leftmargin{4mm}	% identação do texto principal em
+								% relação à margem da 'página'
+				\setlength\rightmargin{0mm}
+				\setlength\labelwidth{4mm}	% tamanho "esperado" da caixa de rótulo
+								% define também o recuo usado
+		%
+		%		\setlength\listparindent{3mm}	% tamanho da identação dos parágrafos
+								% dentro do ítem
+		%
+				\setlength\labelsep{0mm}	% espaço entre rótulo e descrição
+				\setlength\parsep{0mm}		% espaço entre parágrafos de um item
+				\setlength\itemsep{1mm}		% espaço entre items
+				\setlength\lineskip{0mm}	% espaçamento entre linhas
+		}
+
+	}%
+	{\end{list}}

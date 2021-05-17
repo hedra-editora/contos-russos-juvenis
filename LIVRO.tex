@@ -23,8 +23,11 @@
 \usepackage{adforn}						% para adornos & glyphs
 \usepackage{xcolor}					 	% para texto colorido
 \usepackage[babel]{microtype}			% para ajustes finos na mancha
-\usepackage{enumerate}					% para tipos diferentes de enumeração
-\usepackage{marginnote,titlesec}					% para notas laterais
+\usepackage{enumerate,enumitem}			% para tipos diferentes de enumeração/formatação ver `edlab-extra.sty`
+\usepackage{marginnote}					% para notas laterais
+\usepackage{titlesec}					% para produzir os distanciamentos entre pontos no \dotfill
+\usepackage{url}						% para citar sites \url
+
 %\usepackage{makeidx} 					% para índice remissivo
 
 \usepackage{edlab-penalties}
@@ -72,8 +75,8 @@
 \begin{document}
 
 
-%\input{MUSSUMIPSUM}  		% Teste da classe
-\include{INPUTS}
+\input{MUSSUMIPSUM}  		% Teste da classe
+%\include{INPUTS}
 
 
 \checkandfixthelayout
