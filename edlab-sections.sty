@@ -24,9 +24,9 @@
 % section
 \setbeforesecskip{1.2\onelineskip}%
 \setaftersecskip{.35\onelineskip}%
-\setsecheadstyle{\large\baselineskip=.7\baselineskip\centering\scshape\MakeTextLowercase}%
+\setsecheadstyle{\large\baselineskip=.7\baselineskip\centering\scshape}%
 % subsection
-\setsubsecheadstyle{\MakeTextLowercase{}\centering\small\scshape\MakeTextLowercase}%
+\setsubsecheadstyle{\centering\small\scshape\MakeTextLowercase}%
 % subsubsection
 \setbeforesubsubsecskip{1\onelineskip}%
 \setaftersubsubsecskip{.2\onelineskip}%
@@ -40,7 +40,7 @@
 
 % Cabeços e rodapés 
 % \makeheadposition{baruch}{flushright}{flushleft}{}{}
-\makeoddhead{baruch}{}{\scshape\MakeLowercase{\scshape\MakeTextLowercase{\leftmark}}}{}
+\makeoddhead{baruch}{}{\scshape\MakeTextLowercase{\leftmark}}{}
 \makeevenhead{baruch}{}{\scshape\MakeLowercase{\parttitle}}{}
 \makeevenfoot{baruch}{}{\footnotesize\thepage}{}{}
 \makeoddfoot{baruch}{}{\footnotesize\thepage}{}{}

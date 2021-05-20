@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.6.21)  17 MAY 2021 18:30
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.6.21)  20 MAY 2021 15:24
  restricted system commands enabled.
 **LIVRO.tex
 (./LIVRO.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.210 seconds
+luaotfload | main : initialization completed in 0.265 seconds
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2018/12/12 v3.7h configurable book, report, article docum
 ent class
@@ -1211,10 +1211,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 RS)
 )
-Package marginnote Info: Suggest that margin note 5.1 will be on
-(marginnote)             absolute page 5.
-(marginnote)             This may be wrong on input line 11.
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 11.
+Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 11.
+
+Package marginnote Info: xpos seems to be 161.26999pt on input line 11.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1223,41 +1222,100 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 14.
-Package marginnote Info: Suggest that margin note 5.2 will be on
-(marginnote)             absolute page 5.
-(marginnote)             This may be wrong on input line 18.
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 18.
+Package marginnote Info: Margin note 5.2 is on absolute page 5 on input line 18.
+
+Package marginnote Info: xpos seems to be 161.26999pt on input line 18.
 Package lettrine.sty Info: Targeted height = 23.092pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 23.09206pt (\leavevmode{\color {red
 }M});
 (lettrine.sty)             reported on input line 18.
 
-! unexpected use of \pdfextension.
-<to be read again> 
-}
-l.30 \section{É solitário andar por entre a gente}
-                                                  
-? x
 
+Class memoir Warning: The material used in the headers is too large
+(14.49998pt) for the given head height (14.22636pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 39.
+
+[5] [6]
+Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 87.
+
+Package marginnote Info: xpos seems to be 161.26999pt on input line 87.
+ [7] [8]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [9
+
+]
+Package marginnote Info: Margin note 10.1 is on absolute page 10 on input line 1
+48.
+Package marginnote Info: xpos seems to be 179.26999pt on input line 148.
+Package marginnote Info: Margin note 10.2 is on absolute page 10 on input line 1
+81.
+Package marginnote Info: xpos seems to be 179.26999pt on input line 181.
+<image.jpeg, id=35, 190.7125pt x 265.99374pt>
+File: image.jpeg Graphic file (type jpg)
+<use image.jpeg>
+Package luatex.def Info: image.jpeg  used on input line 183.
+(luatex.def)             Requested size: 128.0pt x 178.53145pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10]
+Package marginnote Info: Margin note 11.1 is on absolute page 11 on input line 2
+07.
+Package marginnote Info: xpos seems to be 161.26999pt on input line 207.
+ [11<./image.jpeg>] [12] [13] [14] [15] [16])
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 56.9055pt and 103.85255pt
+Page height and width: 597.50787pt by 389.80275pt
+Text height and width: 476pt by 256pt
+Spine and edge margins: 58.13599pt and 75.59196pt
+Upper and lower margins: 59.73816pt and 61.76971pt
+Headheight and headsep: 14.22636pt and 5.69054pt
+Footskip: 28.45274pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 13.96799pt and 47.65599pt
+Sidecapsep and sidecapwidth: 7pt and 102pt
+Sidebarhsep and sidebarwidth: 7pt and 102pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 546.64995pt
+Sidefoothsep and sidefootwidth: 7pt and 102pt
+Sidefootvsep and sidefootheight: 14.5pt and 546.64995pt
+******************************************************
+
+
+Class memoir Warning: The material used in the headers is too large
+(14.49998pt) for the given head height (14.22636pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 83.
+
+[17] (./LIVRO.aux))
 
 Here is how much of LuaTeX's memory you used:
- 22338 strings out of 494291
- 100000,794899 words of node,token memory allocated 12305 words of node memory still in use:
-   66 hlist, 12 vlist, 10 rule, 1 ins, 1 mark, 93 disc, 15 local_par, 2 dir, 9 m
-ath, 256 glue, 129 kern, 51 penalty, 17 margin_kern, 830 glyph, 1 page_insert, 2
-15 attribute, 194 glue_spec, 109 attribute_list, 2 temp, 1 if_stack, 3 shape, 5 
-write, 2 save_pos, 29 pdf_colorstack nodes
-   avail lists: 1:1,2:35,5:2,8:2,9:65,10:7
- 25857 multiletter control sequences out of 65536+600000
- 79 fonts using 20207407 bytes
- 69i,13n,78p,783b,479s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/aeschylus/texmf/tex/fonts/BigCityGrotesquePro-Book.ttf></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb>
-Output written on LIVRO.pdf (4 pages, 13403 bytes).
+ 22429 strings out of 494291
+ 100000,794899 words of node,token memory allocated
+ 1433 words of node memory still in use:
+   5 hlist, 1 vlist, 1 rule, 2 disc, 9 glue, 3 kern, 14 glyph, 35 attribute, 190
+ glue_spec, 19 attribute_list, 3 shape, 2 write, 6 pdf_colorstack nodes
+   avail lists: 1:1,2:749,3:114,4:53,5:369,6:28,7:2294,8:2,9:281,10:8,11:190
+ 25910 multiletter control sequences out of 65536+600000
+ 86 fonts using 22828223 bytes
+ 69i,14n,78p,783b,479s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/aeschylus/texmf/tex/fonts/BigCityGrotesquePro-Bold.ttf></usr/share/texmf/
+fonts/opentype/public/lm/lmsans8-regular.otf></home/aeschylus/texmf/tex/fonts/Bi
+gCityGrotesquePro-BookIt.ttf></usr/share/texmf/fonts/opentype/public/lm/lmmono8-
+regular.otf></home/aeschylus/texmf/tex/fonts/BigCityGrotesquePro-Book.ttf></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb>
+Output written on LIVRO.pdf (17 pages, 88087 bytes).
 
-PDF statistics: 28 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+PDF statistics: 98 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

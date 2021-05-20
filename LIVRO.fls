@@ -229,4 +229,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr5.tfm
+INPUT /home/aeschylus/.texlive2019/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
+INPUT /home/aeschylus/.texlive2019/texmf-var/luatex-cache/generic/fonts/otl/lmsans8-regular.luc
+INPUT ./image.jpeg
+INPUT ./image.jpeg
+INPUT ./image.jpeg
+INPUT ./LIVRO.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb
