@@ -22,6 +22,8 @@
   \kern 2.6\p@}}}
 
 \DeclareOption{chicagofootnotes}{
+\renewcommand{\footnotesize}{\scriptsize}
+\renewcommand*\footnoterule{\vfill}
   \renewcommand\@makefntext[1]{\frenchspacing 
     \parindent 0em% 
     \@thefnmark.~#1}

@@ -1,6 +1,6 @@
 \documentclass[showtrims,		% Mostra as marcas de corte em cruz
 			   trimframe,		% Mostra as marcas de corte em linha, para conferência
-			   12pt				% 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt 
+			   11pt				% 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt 
 			   ]{memoir}
 \usepackage[brazilian,
 			% english,
@@ -32,9 +32,9 @@
 
 \usepackage{edlab-penalties}
 \usepackage{edlab-git}
-\usepackage{edlab-toc}					% define sumário
+\usepackage{kalinka-toc}					% define sumário
 \usepackage{edlab-extra}				% define epígrafe, quote
-\usepackage[14x21]{edlab-margins}
+\usepackage[Bella]{edlab-margins}
 \usepackage[%semcabeco, 				% para remover cabeço, sobe mancha e mantem estilos
 			]{edlab-sections}			% define pagestyle (cabeço, rodapé e seções)
 \usepackage[%
@@ -50,9 +50,13 @@
 \marginparsep=1em		% Entre mancha e nota lateral 
 \marginparwidth=4em		% Tamanho da caixa de texto da nota laterial
 
+%Entrelinhas da coleção Bella
+\linespread{1.35}
+
 % Fontes
 \hyphenation{Pu-ga-tchóv}
 \hyphenation{Du-ra-tchók}
+\defaultfontfeatures{Numbers={Proportional,OldStyle}}
 \setmainfont{BigCityGrotesquePro-Book.ttf}[
 				ItalicFont = BigCityGrotesquePro-BookIt.ttf ,
 				BoldFont = BigCityGrotesquePro-Bold.ttf]
@@ -75,8 +79,8 @@
 \begin{document}
 
 
-\input{MUSSUMIPSUM}  		% Teste da classe
-%\include{INPUTS}
+%\input{MUSSUMIPSUM}  		% Teste da classe
+\include{INPUTS}
 
 
 \checkandfixthelayout

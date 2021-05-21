@@ -11,7 +11,9 @@
 % part changes
 \renewcommand*{\partnamefont}{\Large}
 \renewcommand*{\partnumfont}{\Large}
-\renewcommand*{\parttitlefont}{\centering\Large}
+\renewcommand*{\beforepartskip}{\null\vspace{.6\textheight}}%
+\renewcommand*{\parttitlefont}{\hfill\Huge\textbl}
+\newcommand*{\partsub}{\break\mbox{} \hfill\LARGE\textlt}
 \renewcommand*{\midpartskip}{\par\vskip 2\onelineskip}%
 % chapter
 \setlength{\beforechapskip}{0mm}%
@@ -20,7 +22,7 @@
 \setlength{\afterchapskip}{22mm\@plus\baselineskip\@minus\baselineskip}%
 \renewcommand*{\chapnamefont}{}%       % Etiqueta
 \renewcommand*{\chapnumfont}{}%        % Número
-\renewcommand*{\chaptitlefont}{}%  % Texto
+\renewcommand*{\chaptitlefont}{\Large\bfseries}%  % Texto
 % section
 \setbeforesecskip{1.2\onelineskip}%
 \setaftersecskip{.35\onelineskip}%
