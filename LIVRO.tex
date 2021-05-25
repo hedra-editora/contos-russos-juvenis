@@ -43,6 +43,13 @@
 			chicagofootnotes			% para notas com número e ponto cf. man. de Chicago
 			]{edlab-footnotes}
 
+\usepackage{floatpag} %remove numeração das páginas com figuras
+
+
+%Reset das notas por chapter
+\makeatletter
+  \pretocmd{\@chapter}{\setcounter{footnote}{0}}{}{}
+\makeatother
 
 % Medidas (ver: memoir p.11 fig.2.3)
 \parindent=3ex			% Tamanho da indentação
@@ -70,8 +77,8 @@
 % Estilos
 \makeoddhead{baruch}{}{\scshape\MakeLowercase{\scshape\MakeTextLowercase{\leftmark}}}{}
 \makeevenhead{baruch}{}{\scshape\MakeLowercase{\parttitle}}{}
-\makeevenfoot{baruch}{}{\footnotesize\thepage}{}
-\makeoddfoot{baruch}{}{\footnotesize\thepage}{}
+\makeevenfoot{baruch}{\textlt\scriptsize\thepage}{}{}
+\makeoddfoot{baruch}{}{}{\textlt\scriptsize\thepage}
 \pagestyle{baruch}		
 \headstyles{baruch}
 

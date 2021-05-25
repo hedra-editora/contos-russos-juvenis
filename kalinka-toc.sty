@@ -7,7 +7,20 @@
 
 \makeatletter
 
-\renewcommand\cftpartfont{\small\textlt}
+\renewcommand\cftpartfont{\tiny\textlt}
+
+\newcommand\l@mypart[3]{
+  \vskip2ex
+  \par
+  \parbox{2.5em}{\hfill{}}
+  \hspace*{1em}
+  \parbox{\dimexpr\textwidth-5.5em-15pt\relax}{\cftpartfont#1}\par
+}
+
+\renewcommand*\l@part[2]{
+  \l@mypart{#1}{#2}{\partrname}
+
+}
 
 
 \renewcommand\cftchapterpagefont{\small\textlt}
@@ -17,9 +30,8 @@
   \par\noindent
   \parbox{2.5em}{\hfill{[\cftchapterpagefont#2}]}
   \hspace*{1em}
-  \parbox{\dimexpr\textwidth-5.5em-15pt\relax}{\cftchapterfont#1, \cftpartfont#1}\par%
+  \parbox{\dimexpr\textwidth-5.5em-15pt\relax}{\cftchapterfont#1}\par%
 }
-
 
 \renewcommand*\l@chapter[2]{%
   \l@mychap{#1}{#2}{\chaptername}%
