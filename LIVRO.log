@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.9.13)  28 MAY 2021 14:33
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.9.13)  28 MAY 2021 16:33
  restricted system commands enabled.
 **LIVRO.tex
 (./LIVRO.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.090 seconds
+luaotfload | main : initialization completed in 0.099 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docum
@@ -1902,68 +1902,68 @@ Package luatex.def Info: ./imgs/autor1.jpg  used on input line 16.
 ]
 File: ./imgs/autor2.jpg Graphic file (type jpg)
 <use ./imgs/autor2.jpg>
-Package luatex.def Info: ./imgs/autor2.jpg  used on input line 58.
+Package luatex.def Info: ./imgs/autor2.jpg  used on input line 59.
 (luatex.def)             Requested size: 57.81621pt x 69.75848pt.
 
 [374] [375]
 File: ./imgs/autor3.jpg Graphic file (type jpg)
 <use ./imgs/autor3.jpg>
-Package luatex.def Info: ./imgs/autor3.jpg  used on input line 101.
+Package luatex.def Info: ./imgs/autor3.jpg  used on input line 103.
 (luatex.def)             Requested size: 57.81621pt x 69.01671pt.
  [376] [377]
 File: ./imgs/autor4.jpg Graphic file (type jpg)
 <use ./imgs/autor4.jpg>
-Package luatex.def Info: ./imgs/autor4.jpg  used on input line 164.
+Package luatex.def Info: ./imgs/autor4.jpg  used on input line 165.
 (luatex.def)             Requested size: 57.81621pt x 63.0032pt.
- [378]
+ [378] [379]
 File: ./imgs/autor5.jpg Graphic file (type jpg)
 <use ./imgs/autor5.jpg>
-Package luatex.def Info: ./imgs/autor5.jpg  used on input line 215.
+Package luatex.def Info: ./imgs/autor5.jpg  used on input line 217.
 (luatex.def)             Requested size: 57.81621pt x 69.09409pt.
- [379] [380]
+ [380]
 File: ./imgs/autor6.jpg Graphic file (type jpg)
 <use ./imgs/autor6.jpg>
-Package luatex.def Info: ./imgs/autor6.jpg  used on input line 256.
+Package luatex.def Info: ./imgs/autor6.jpg  used on input line 260.
 (luatex.def)             Requested size: 57.81621pt x 67.52126pt.
- [381]
+ [381] [382]
 File: ./imgs/autor7.jpg Graphic file (type jpg)
 <use ./imgs/autor7.jpg>
-Package luatex.def Info: ./imgs/autor7.jpg  used on input line 315.
+Package luatex.def Info: ./imgs/autor7.jpg  used on input line 320.
 (luatex.def)             Requested size: 57.81621pt x 63.04216pt.
- [382] [383]
+ [383]
 File: ./imgs/autor8.jpg Graphic file (type jpg)
 <use ./imgs/autor8.jpg>
-Package luatex.def Info: ./imgs/autor8.jpg  used on input line 367.
+Package luatex.def Info: ./imgs/autor8.jpg  used on input line 373.
 (luatex.def)             Requested size: 57.81621pt x 70.7216pt.
- [384]
+ [384] [385]
 File: ./imgs/autor9.jpg Graphic file (type jpg)
 <use ./imgs/autor9.jpg>
-Package luatex.def Info: ./imgs/autor9.jpg  used on input line 409.
+Package luatex.def Info: ./imgs/autor9.jpg  used on input line 415.
 (luatex.def)             Requested size: 57.81621pt x 63.58565pt.
- [385]
+
 [386]
 File: ./imgs/autor10.jpg Graphic file (type jpg)
 <use ./imgs/autor10.jpg>
-Package luatex.def Info: ./imgs/autor10.jpg  used on input line 463.
+Package luatex.def Info: ./imgs/autor10.jpg  used on input line 470.
 (luatex.def)             Requested size: 57.81621pt x 73.12108pt.
- [387] [388]
+ [387] [388] [389]
 File: ./imgs/autor11.jpg Graphic file (type jpg)
 <use ./imgs/autor11.jpg>
-Package luatex.def Info: ./imgs/autor11.jpg  used on input line 527.
+Package luatex.def Info: ./imgs/autor11.jpg  used on input line 535.
 (luatex.def)             Requested size: 57.81621pt x 75.58667pt.
- [389] [390]
+ [390]
 File: ./imgs/autor12.jpg Graphic file (type jpg)
 <use ./imgs/autor12.jpg>
-Package luatex.def Info: ./imgs/autor12.jpg  used on input line 576.
+Package luatex.def Info: ./imgs/autor12.jpg  used on input line 585.
 (luatex.def)             Requested size: 57.81621pt x 65.31242pt.
- [391] [392] [393
+ [391] [392] [393] [394
 
-] [394]
-Underfull \hbox (badness 10000) in paragraph at lines 664--665
+] [395] [396]
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
 
  []
 
-[395] [396] [397]) [398])
+[397] [398] [399]) [400])
 
 ******************************************************
 Stock height and width: 845.04684pt by 597.50787pt
@@ -1991,19 +1991,19 @@ LaTeX Warning: There were multiply-defined labels.
 )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 663 ({)
+### simple group (level 1) entered at line 673 ({)
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 20972 strings out of 494480
+ 20931 strings out of 494480
  100000,794899 words of node,token memory allocated
- 6072 words of node memory still in use:
-   5 hlist, 1 vlist, 2 rule, 104 glue, 586 glyph, 166 attribute, 200 glue_spec, 
-166 attribute_list, 3 shape, 4 write nodes
-   avail lists: 1:1,2:311,3:155,4:62,5:1077,6:5378,7:2632,8:52,9:236,10:24,11:61
+ 5104 words of node memory still in use:
+   5 hlist, 1 vlist, 2 rule, 104 glue, 436 glyph, 149 attribute, 200 glue_spec, 
+149 attribute_list, 3 shape, 4 write nodes
+   avail lists: 1:1,2:331,3:155,4:62,5:1077,6:5528,7:2632,8:52,9:236,10:24,11:61
 2
- 23821 multiletter control sequences out of 65536+600000
- 141 fonts using 41524079 bytes
+ 23801 multiletter control sequences out of 65536+600000
+ 134 fonts using 38185719 bytes
  79i,14n,84p,1329b,515s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/adforn/OrnementsADF.enc}</home/ed
 lab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-BookIt.ttf></home/
@@ -2014,10 +2014,10 @@ ome/edlab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-Bold.ttf></h
 ome/edlab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-Book.ttf></u
 sr/share/texlive/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb>
-Output written on LIVRO.pdf (398 pages, 29255051 bytes).
+Output written on LIVRO.pdf (400 pages, 29256214 bytes).
 
-PDF statistics: 1348 PDF objects out of 1440 (max. 8388607)
- 883 compressed objects within 9 object streams
+PDF statistics: 1354 PDF objects out of 1440 (max. 8388607)
+ 887 compressed objects within 9 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
