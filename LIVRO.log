@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.9.13)  25 MAY 2021 09:49
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.9.13)  28 MAY 2021 14:33
  restricted system commands enabled.
 **LIVRO.tex
 (./LIVRO.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.093 seconds
+luaotfload | main : initialization completed in 0.090 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docum
@@ -1204,6 +1204,53 @@ citygrotesquepro-black.luc)
 +onum;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
+luaotfload | cache : Lookup cache loaded from /home/edlab/.texlive2017/texmf-var
+/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+\g__fontspec_family_BigCityGrotesquePro-Light_int=\count328
+luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: "Font BigCity
+GrotesquePro-LightIt.ttf not found.".
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "BigCityGrotesquePro-LightIt.ttf/B" (it probably
+. doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "BigCityGrotesquePro-Light/BI" (it probably doesn't
+. exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "BigCityGrotesquePro-Light/B" (it probably doesn't
+. exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'BigCityGrotesquePro-Light(0)' created for font
+. 'BigCityGrotesquePro-Light' with options
+. [Numbers={Proportional,OldStyle},Ligatures=TeX,Numbers={Lining},ItalicFont =
+. BigCityGrotesquePro-LightIt.ttf].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"BigCityGrotesquePro-Light:mode=node;script=latn;language=DFLT;+pnum;+tlig;
++lnum;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->"BigCityGrotesquePro-Light:mode=node;script=latn;language=DFLT;+pnum;+tlig;
++lnum;+smcp;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->"BigCityGrotesquePro-LightIt.ttf:mode=node;script=latn;language=DFLT;+pnum;
++tlig;+lnum;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->"BigCityGrotesquePro-LightIt.ttf:mode=node;script=latn;language=DFLT;+pnum;
++tlig;+lnum;+smcp;"
+.................................................
+LaTeX Info: Redefining \sffamily on input line 76.
  (./LIVRO.aux (./INPUTS.aux
 
 LaTeX Warning: Label `part0' multiply defined.
@@ -1214,20 +1261,20 @@ LaTeX Warning: Label `part7' multiply defined.
 ))
 \openout1 = LIVRO.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1235,76 +1282,78 @@ LaTeX Font Info:    ... okay on input line 86.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 86.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 86.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 86.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 86.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 86.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 86.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 86.
-LaTeX Font Info:    Redeclaring math accent \check on input line 86.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 86.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 86.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 86.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 86.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 90.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 90.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 90.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 90.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 90.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 90.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 90.
+LaTeX Font Info:    Redeclaring math accent \check on input line 90.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 90.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 90.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 90.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 90.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 86.
+(Font)              `operators' in the math version `normal' on input line 90.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/BigCityGrotesquePro-Book.ttf(0)/m/n o
-n input line 86.
+n input line 90.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 86.
+(Font)              `operators' in the math version `bold' on input line 90.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/BigCityGrotesquePro-Book.ttf(0)/m/n 
-on input line 86.
+on input line 90.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/BigCityGrotesquePro-Book.ttf(0)/m/n --> TU/BigCityGro
-tesquePro-Book.ttf(0)/m/n on input line 86.
+tesquePro-Book.ttf(0)/m/n on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/BigCityGrotesquePro-Book.ttf(0)/m/it
- on input line 86.
+ on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/BigCityGrotesquePro-Book.ttf(0)/bx/n
- on input line 86.
+ on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 86.
+(Font)                  OT1/cmss/m/n --> TU/BigCityGrotesquePro-Light(0)/m/n on 
+input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 86.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 90.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/BigCityGrotesquePro-Book.ttf(0)/m/n --> TU/BigCityGro
-tesquePro-Book.ttf(0)/bx/n on input line 86.
+tesquePro-Book.ttf(0)/bx/n on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/BigCityGrotesquePro-Book.ttf(0)/bx/
-it on input line 86.
+it on input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 86.
+(Font)                  OT1/cmss/bx/n --> TU/BigCityGrotesquePro-Light(0)/bx/n o
+n input line 90.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 86.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 90.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count328
+\scratchcounter=\count329
 \scratchdimen=\dimen275
 \scratchbox=\box52
-\nofMPsegments=\count329
-\nofMParguments=\count330
+\nofMPsegments=\count330
+\nofMParguments=\count331
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count331
+\MPscratchCnt=\count332
 \MPscratchDim=\dimen276
-\MPnumerator=\count332
-\makeMPintoPDFobject=\count333
+\MPnumerator=\count333
+\makeMPintoPDFobject=\count334
 \everyMPtoPDFconversion=\toks31
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1349,7 +1398,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-LaTeX Info: Redefining \microtypecontext on input line 86.
+LaTeX Info: Redefining \microtypecontext on input line 90.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1393,24 +1442,24 @@ File: ./bella.pdf Graphic file (type pdf)
 Package luatex.def Info: ./bella.pdf  used on input line 8.
 (luatex.def)             Requested size: 113.81102pt x 97.79134pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--22
+Underfull \hbox (badness 10000) in paragraph at lines 12--24
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 32.
+(Font)              <7> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 32.
+(Font)              <5> on input line 34.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 30--33
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
@@ -1422,28 +1471,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `BigCityGrotesquePro-Light.ttf' (encoding: TU).
+(microtype)             `BigCityGrotesquePro-Light' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-LaTeX Font Warning: Font shape `TU/BigCityGrotesquePro-Light.ttf(0)/m/it' undefi
-ned
-(Font)              using `TU/BigCityGrotesquePro-Light.ttf(0)/m/n' instead on i
-nput line 45.
-
-
-Overfull \hbox (42.13368pt too wide) in paragraph at lines 12--51
-[]  [] 
- []
-
-[7]) (./PREF.tex [8
+ [7]) (./PREF.tex [8
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 7.
- [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
-[20]
+ [9] [10] [11]
+[12] [13] [14] [15] [16] [17] [18] [19] [20]
 Underfull \hbox (badness 3240) in paragraph at lines 405--405
 []\TU/BigCityGrotesquePro-Book.ttf(0)/m/n/8 󰝉󰝉. []\TU/BigCityGrotesquePro
 -Book.ttf(0)/m/sc/8 󰍩󰀚󰉝󰛃󰉝󰅅󰆍󰀃\TU/BigCityGrotesquePro-Boo
@@ -1461,7 +1498,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 445.
  [22] [23] [24] [25] [26] [27] [28]) [29] (./TEXTO.tex [30
 
-] [31]
+]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `BigCityGrotesquePro-Light.ttf' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [31]
 <./imgs/autor1.jpg, id=124, 321.6015pt x 417.7206pt>
 File: ./imgs/autor1.jpg Graphic file (type jpg)
 <use ./imgs/autor1.jpg>
@@ -1502,45 +1544,45 @@ Package luatex.def Info: ./imgs/autor2.jpg  used on input line 362.
  [50<./imgs/autor2.jpg>]
 [51
 
-] [52] [53] [54] [55] [56] [57] [58]
-<./imgs/cena2.jpg, id=211, 418.2024pt x 625.8582pt>
+] [52] [53] [54] [55] [56] [57]
+<./imgs/cena2.jpg, id=208, 418.2024pt x 625.8582pt>
 File: ./imgs/cena2.jpg Graphic file (type jpg)
 <use ./imgs/cena2.jpg>
-Package luatex.def Info: ./imgs/cena2.jpg  used on input line 591.
+Package luatex.def Info: ./imgs/cena2.jpg  used on input line 585.
 (luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-Overfull \hbox (80.60541pt too wide) in paragraph at lines 591--592
+Overfull \hbox (69.22404pt too wide) in paragraph at lines 585--586
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 67.72456pt on input line 592.
+LaTeX Warning: Float too large for page by 81.95094pt on input line 586.
 
-[59] [60<./imgs/cena2.jpg>] [61] [62] [63
+[58] [59<./imgs/cena2.jpg>] [60] [61] [62] [63
 
 ]
 <./imgs/autor3.jpg, id=228, 326.9013pt x 390.258pt>
 File: ./imgs/autor3.jpg Graphic file (type jpg)
 <use ./imgs/autor3.jpg>
-Package luatex.def Info: ./imgs/autor3.jpg  used on input line 679.
+Package luatex.def Info: ./imgs/autor3.jpg  used on input line 680.
 (luatex.def)             Requested size: 170.71652pt x 203.80472pt.
- [64<./imgs/autor3.jpg>] [65
+ [64<./imgs/autor3.jpg>]
+[65
 
-]
-[66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80]
-[81] [82] [83] [84] [85]
+] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85]
 <./imgs/cena3.jpg, id=297, 389.7762pt x 597.432pt>
 File: ./imgs/cena3.jpg Graphic file (type jpg)
 <use ./imgs/cena3.jpg>
-Package luatex.def Info: ./imgs/cena3.jpg  used on input line 1247.
+Package luatex.def Info: ./imgs/cena3.jpg  used on input line 1248.
 (luatex.def)             Requested size: 389.77524pt x 597.43054pt.
 
-Overfull \hbox (63.5602pt too wide) in paragraph at lines 1247--1248
+Overfull \hbox (63.5602pt too wide) in paragraph at lines 1248--1249
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 59.21529pt on input line 1248.
+LaTeX Warning: Float too large for page by 59.21529pt on input line 1249.
 
 [86] [87<./imgs/cena3.jpg>] [88] [89] [90] [91] [92] [93] [94] [95] [96]
 [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109
@@ -1549,52 +1591,52 @@ LaTeX Warning: Float too large for page by 59.21529pt on input line 1248.
 <./imgs/autor4.jpg, id=373, 346.4142pt x 377.4903pt>
 File: ./imgs/autor4.jpg Graphic file (type jpg)
 <use ./imgs/autor4.jpg>
-Package luatex.def Info: ./imgs/autor4.jpg  used on input line 1817.
+Package luatex.def Info: ./imgs/autor4.jpg  used on input line 1818.
 (luatex.def)             Requested size: 170.71652pt x 186.03171pt.
 
 [110<./imgs/autor4.jpg>] [111
 
 ] [112] [113] [114] [115] [116] [117] [118]
-[119] [120] [121] [122] [123] [124] [125] [126]
-<./imgs/cena4.jpg, id=427, 389.7762pt x 597.432pt>
+[119] [120] [121] [122] [123] [124] [125]
+<./imgs/cena4.jpg, id=424, 389.7762pt x 597.432pt>
 File: ./imgs/cena4.jpg Graphic file (type jpg)
 <use ./imgs/cena4.jpg>
-Package luatex.def Info: ./imgs/cena4.jpg  used on input line 2278.
+Package luatex.def Info: ./imgs/cena4.jpg  used on input line 2268.
 (luatex.def)             Requested size: 389.77524pt x 597.43054pt.
 
-Overfull \hbox (63.5602pt too wide) in paragraph at lines 2278--2279
+Overfull \hbox (63.5602pt too wide) in paragraph at lines 2268--2269
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 64.90575pt on input line 2279.
+LaTeX Warning: Float too large for page by 64.90575pt on input line 2269.
 
-[127] [128<./imgs/cena4.jpg>] [129] [130] [131] [132] [133] [134] [135]
-[136] [137] [138] [139] [140] [141] [142] [143] [144] [145] [146] [147]
-[148] [149] [150] [151] [152
+[126] [127<./imgs/cena4.jpg>] [128] [129] [130] [131] [132] [133] [134]
+[135] [136] [137] [138] [139] [140] [141] [142] [143] [144] [145] [146]
+[147] [148] [149] [150] [151] [152
 
 ] [153]
 <./imgs/autor5.jpg, id=513, 312.4473pt x 373.395pt>
 File: ./imgs/autor5.jpg Graphic file (type jpg)
 <use ./imgs/autor5.jpg>
-Package luatex.def Info: ./imgs/autor5.jpg  used on input line 2958.
+Package luatex.def Info: ./imgs/autor5.jpg  used on input line 2959.
 (luatex.def)             Requested size: 170.71652pt x 204.02325pt.
  [154<./imgs/autor5.jpg>] [155
 
-] [156]
-[157] [158] [159] [160] [161]
+]
+[156] [157] [158] [159] [160] [161]
 <./imgs/cena5.jpg, id=539, 389.7762pt x 597.432pt>
 File: ./imgs/cena5.jpg Graphic file (type jpg)
 <use ./imgs/cena5.jpg>
-Package luatex.def Info: ./imgs/cena5.jpg  used on input line 3219.
+Package luatex.def Info: ./imgs/cena5.jpg  used on input line 3220.
 (luatex.def)             Requested size: 389.77524pt x 597.43054pt.
 
-Overfull \hbox (63.5602pt too wide) in paragraph at lines 3219--3220
+Overfull \hbox (63.5602pt too wide) in paragraph at lines 3220--3221
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 64.90575pt on input line 3220.
+LaTeX Warning: Float too large for page by 64.90575pt on input line 3221.
 
 [162] [163<./imgs/cena5.jpg>] [164] [165] [166] [167
 
@@ -1602,40 +1644,41 @@ LaTeX Warning: Float too large for page by 64.90575pt on input line 3220.
 <./imgs/autor6.jpg, id=558, 318.4698pt x 371.9496pt>
 File: ./imgs/autor6.jpg Graphic file (type jpg)
 <use ./imgs/autor6.jpg>
-Package luatex.def Info: ./imgs/autor6.jpg  used on input line 3338.
+Package luatex.def Info: ./imgs/autor6.jpg  used on input line 3339.
 (luatex.def)             Requested size: 170.71652pt x 199.37984pt.
  [168<./imgs/autor6.jpg>]
 [169
 
-] [170] [171] [172] [173]
-<./imgs/cena6.jpg, id=578, 389.7762pt x 597.432pt>
+] [170] [171]
+<./imgs/cena6.jpg, id=572, 389.7762pt x 597.432pt>
 File: ./imgs/cena6.jpg Graphic file (type jpg)
 <use ./imgs/cena6.jpg>
-Package luatex.def Info: ./imgs/cena6.jpg  used on input line 3491.
+Package luatex.def Info: ./imgs/cena6.jpg  used on input line 3428.
 (luatex.def)             Requested size: 389.77524pt x 597.43054pt.
 
-Overfull \hbox (63.5602pt too wide) in paragraph at lines 3491--3492
+Overfull \hbox (63.5602pt too wide) in paragraph at lines 3428--3429
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 64.90575pt on input line 3492.
+LaTeX Warning: Float too large for page by 64.90575pt on input line 3429.
 
-[174] [175] [176<./imgs/cena6.jpg>] [177
+[172] [173<./imgs/cena6.jpg>] [174] [175] [176] [177
 
-] [178] [179] [180] [181]
+] [178] [179] [180]
+[181]
 <./imgs/cena7.jpg, id=604, 418.2024pt x 625.8582pt>
 File: ./imgs/cena7.jpg Graphic file (type jpg)
 <use ./imgs/cena7.jpg>
-Package luatex.def Info: ./imgs/cena7.jpg  used on input line 3670.
+Package luatex.def Info: ./imgs/cena7.jpg  used on input line 3671.
 (luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-Overfull \hbox (72.06949pt too wide) in paragraph at lines 3670--3671
+Overfull \hbox (72.06949pt too wide) in paragraph at lines 3671--3672
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 76.26048pt on input line 3671.
+LaTeX Warning: Float too large for page by 76.26048pt on input line 3672.
 
 [182] [183<./imgs/cena7.jpg>] [184] [185] [186] [187] [188] [189] [190
 
@@ -1644,7 +1687,7 @@ LaTeX Warning: Float too large for page by 76.26048pt on input line 3671.
 <./imgs/autor7.jpg, id=636, 340.8735pt x 371.7087pt>
 File: ./imgs/autor7.jpg Graphic file (type jpg)
 <use ./imgs/autor7.jpg>
-Package luatex.def Info: ./imgs/autor7.jpg  used on input line 3846.
+Package luatex.def Info: ./imgs/autor7.jpg  used on input line 3847.
 (luatex.def)             Requested size: 170.71652pt x 186.16583pt.
  [192<./imgs/autor7.jpg>] [193
 
@@ -1652,15 +1695,15 @@ Package luatex.def Info: ./imgs/autor7.jpg  used on input line 3846.
 <./imgs/cena8.jpg, id=656, 418.2024pt x 625.8582pt>
 File: ./imgs/cena8.jpg Graphic file (type jpg)
 <use ./imgs/cena8.jpg>
-Package luatex.def Info: ./imgs/cena8.jpg  used on input line 4028.
+Package luatex.def Info: ./imgs/cena8.jpg  used on input line 4029.
 (luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-Overfull \hbox (77.75995pt too wide) in paragraph at lines 4028--4029
+Overfull \hbox (77.75995pt too wide) in paragraph at lines 4029--4030
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 79.1055pt on input line 4029.
+LaTeX Warning: Float too large for page by 79.1055pt on input line 4030.
 
 [198] [199<./imgs/cena8.jpg>] [200] [201] [202] [203] [204] [205] [206]
 [207] [208
@@ -1669,7 +1712,7 @@ LaTeX Warning: Float too large for page by 79.1055pt on input line 4029.
 <./imgs/autor8.jpg, id=694, 312.9291pt x 382.7901pt>
 File: ./imgs/autor8.jpg Graphic file (type jpg)
 <use ./imgs/autor8.jpg>
-Package luatex.def Info: ./imgs/autor8.jpg  used on input line 4253.
+Package luatex.def Info: ./imgs/autor8.jpg  used on input line 4254.
 (luatex.def)             Requested size: 170.71652pt x 208.82965pt.
  [210<./imgs/autor8.jpg>] [211
 
@@ -1677,15 +1720,15 @@ Package luatex.def Info: ./imgs/autor8.jpg  used on input line 4253.
 <./imgs/cena9.jpg, id=708, 418.2024pt x 625.8582pt>
 File: ./imgs/cena9.jpg Graphic file (type jpg)
 <use ./imgs/cena9.jpg>
-Package luatex.def Info: ./imgs/cena9.jpg  used on input line 4380.
+Package luatex.def Info: ./imgs/cena9.jpg  used on input line 4381.
 (luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-Overfull \hbox (77.75995pt too wide) in paragraph at lines 4380--4381
+Overfull \hbox (77.75995pt too wide) in paragraph at lines 4381--4382
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 93.33186pt on input line 4381.
+LaTeX Warning: Float too large for page by 93.33186pt on input line 4382.
 
 [214] [215<./imgs/cena9.jpg>] [216] [217] [218] [219] [220] [221] [222]
 [223] [224] [225] [226] [227] [228] [229] [230] [231] [232
@@ -1694,43 +1737,43 @@ LaTeX Warning: Float too large for page by 93.33186pt on input line 4381.
 <./imgs/autor9.jpg, id=772, 376.5267pt x 414.1071pt>
 File: ./imgs/autor9.jpg Graphic file (type jpg)
 <use ./imgs/autor9.jpg>
-Package luatex.def Info: ./imgs/autor9.jpg  used on input line 4890.
+Package luatex.def Info: ./imgs/autor9.jpg  used on input line 4891.
 (luatex.def)             Requested size: 170.71652pt x 187.75555pt.
  [234<./imgs/autor9.jpg>] [235
 
 ] [236] [237] [238] [239] [240] [241] [242] [243] [244]
 [245] [246] [247] [248] [249] [250] [251] [252] [253] [254] [255] [256]
-[257] [258] [259] [260] [261] [262] [263] [264] [265] [266]
-<./imgs/cena10.jpg, id=876, 418.2024pt x 625.8582pt>
+[257] [258] [259] [260] [261] [262] [263] [264] [265]
+<./imgs/cena10.jpg, id=873, 418.2024pt x 625.8582pt>
 File: ./imgs/cena10.jpg Graphic file (type jpg)
 <use ./imgs/cena10.jpg>
-Package luatex.def Info: ./imgs/cena10.jpg  used on input line 5788.
+Package luatex.def Info: ./imgs/cena10.jpg  used on input line 5768.
 (luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-Overfull \hbox (77.75995pt too wide) in paragraph at lines 5788--5789
+Overfull \hbox (77.75995pt too wide) in paragraph at lines 5768--5769
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 93.33186pt on input line 5789.
+LaTeX Warning: Float too large for page by 93.33186pt on input line 5769.
 
-[267] [268<./imgs/cena10.jpg>] [269] [270] [271] [272] [273] [274] [275]
-[276] [277] [278] [279] [280] [281] [282] [283] [284] [285] [286] [287
+[266] [267<./imgs/cena10.jpg>] [268] [269] [270] [271] [272] [273] [274]
+[275] [276] [277] [278] [279] [280] [281] [282] [283] [284] [285] [286]
+[287
 
-]
-[288] [289] [290] [291] [292] [293] [294] [295] [296] [297]
+] [288] [289] [290] [291] [292] [293] [294] [295] [296] [297]
 <./imgs/cena11.jpg, id=974, 418.2024pt x 625.8582pt>
 File: ./imgs/cena11.jpg Graphic file (type jpg)
 <use ./imgs/cena11.jpg>
-Package luatex.def Info: ./imgs/cena11.jpg  used on input line 6616.
+Package luatex.def Info: ./imgs/cena11.jpg  used on input line 6617.
 (luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-Overfull \hbox (77.75995pt too wide) in paragraph at lines 6616--6617
+Overfull \hbox (72.06949pt too wide) in paragraph at lines 6617--6618
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 81.95094pt on input line 6617.
+LaTeX Warning: Float too large for page by 81.95094pt on input line 6618.
 
 [298] [299<./imgs/cena11.jpg>] [300] [301] [302] [303] [304] [305] [306
 
@@ -1739,7 +1782,7 @@ LaTeX Warning: Float too large for page by 81.95094pt on input line 6617.
 <./imgs/autor10.jpg, id=1006, 323.0469pt x 408.5664pt>
 File: ./imgs/autor10.jpg Graphic file (type jpg)
 <use ./imgs/autor10.jpg>
-Package luatex.def Info: ./imgs/autor10.jpg  used on input line 6777.
+Package luatex.def Info: ./imgs/autor10.jpg  used on input line 6778.
 (luatex.def)             Requested size: 170.71652pt x 215.91574pt.
  [308<./imgs/autor10.jpg>] [309
 
@@ -1747,18 +1790,18 @@ Package luatex.def Info: ./imgs/autor10.jpg  used on input line 6777.
 <./imgs/cena12.jpg, id=1020, 418.2024pt x 625.8582pt>
 File: ./imgs/cena12.jpg Graphic file (type jpg)
 <use ./imgs/cena12.jpg>
-Package luatex.def Info: ./imgs/cena12.jpg  used on input line 6910.
+Package luatex.def Info: ./imgs/cena12.jpg  used on input line 6903.
 (luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-Overfull \hbox (80.60541pt too wide) in paragraph at lines 6910--6911
+Overfull \hbox (80.60541pt too wide) in paragraph at lines 6903--6904
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 79.1055pt on input line 6911.
+LaTeX Warning: Float too large for page by 79.1055pt on input line 6904.
 
-[312] [313] [314<./imgs/cena12.jpg>] [315] [316]
-Underfull \hbox (badness 2452) in paragraph at lines 7013--7016
+[312] [313<./imgs/cena12.jpg>] [314] [315] [316]
+Underfull \hbox (badness 2452) in paragraph at lines 7014--7017
 []\TU/BigCityGrotesquePro-Book.ttf(0)/m/n/10.95 Ná-tot-chka le-van-tou-se como
  que em de-lí-rio… Lem-
  []
@@ -1766,7 +1809,7 @@ Underfull \hbox (badness 2452) in paragraph at lines 7013--7016
 [317] [318] [319] [320
 
 ]
-Underfull \hbox (badness 1009) in paragraph at lines 7119--7127
+Underfull \hbox (badness 1009) in paragraph at lines 7120--7128
 []\TU/BigCityGrotesquePro-Book.ttf(0)/m/n/10.95 A cama de Vo-ló-dia[] fica exa
 -ta-mente con-tra a porta.
  []
@@ -1775,15 +1818,15 @@ Underfull \hbox (badness 1009) in paragraph at lines 7119--7127
 <./imgs/cena13.jpg, id=1052, 418.2024pt x 625.8582pt>
 File: ./imgs/cena13.jpg Graphic file (type jpg)
 <use ./imgs/cena13.jpg>
-Package luatex.def Info: ./imgs/cena13.jpg  used on input line 7150.
+Package luatex.def Info: ./imgs/cena13.jpg  used on input line 7151.
 (luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-Overfull \hbox (74.91493pt too wide) in paragraph at lines 7150--7151
+Overfull \hbox (66.37903pt too wide) in paragraph at lines 7151--7152
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 81.95094pt on input line 7151.
+LaTeX Warning: Float too large for page by 81.95094pt on input line 7152.
 
 [322] [323<./imgs/cena13.jpg>] [324] [325] [326] [327] [328] [329] [330
 
@@ -1792,13 +1835,13 @@ LaTeX Warning: Float too large for page by 81.95094pt on input line 7151.
 <./imgs/autor11.jpg, id=1084, 294.6207pt x 385.1991pt>
 File: ./imgs/autor11.jpg Graphic file (type jpg)
 <use ./imgs/autor11.jpg>
-Package luatex.def Info: ./imgs/autor11.jpg  used on input line 7338.
+Package luatex.def Info: ./imgs/autor11.jpg  used on input line 7339.
 (luatex.def)             Requested size: 170.71652pt x 223.20403pt.
  [332<./imgs/autor11.jpg>] [333
 
 ] [334] [335] [336] [337] [338] [339]
 [340] [341] [342] [343]
-Underfull \hbox (badness 1005) in paragraph at lines 7696--7699
+Underfull \hbox (badness 1005) in paragraph at lines 7697--7700
 \TU/BigCityGrotesquePro-Book.ttf(0)/m/n/10.95 a ja-nela. --- As mos-cas tam-b
 ém de-vem fa-lar a lín-gua
  []
@@ -1807,15 +1850,15 @@ Underfull \hbox (badness 1005) in paragraph at lines 7696--7699
 <./imgs/cena14.jpg, id=1135, 418.2024pt x 625.8582pt>
 File: ./imgs/cena14.jpg Graphic file (type jpg)
 <use ./imgs/cena14.jpg>
-Package luatex.def Info: ./imgs/cena14.jpg  used on input line 7863.
+Package luatex.def Info: ./imgs/cena14.jpg  used on input line 7864.
 (luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-Overfull \hbox (77.75995pt too wide) in paragraph at lines 7863--7864
+Overfull \hbox (77.75995pt too wide) in paragraph at lines 7864--7865
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 81.95094pt on input line 7864.
+LaTeX Warning: Float too large for page by 81.95094pt on input line 7865.
 
 [348] [349<./imgs/cena14.jpg>] [350
 
@@ -1823,7 +1866,7 @@ LaTeX Warning: Float too large for page by 81.95094pt on input line 7864.
 <./imgs/autor12.jpg, id=1149, 336.2964pt x 379.8993pt>
 File: ./imgs/autor12.jpg Graphic file (type jpg)
 <use ./imgs/autor12.jpg>
-Package luatex.def Info: ./imgs/autor12.jpg  used on input line 7875.
+Package luatex.def Info: ./imgs/autor12.jpg  used on input line 7876.
 (luatex.def)             Requested size: 170.71652pt x 192.85916pt.
  [352<./imgs/autor12.jpg>] [353
 
@@ -1832,84 +1875,95 @@ Package luatex.def Info: ./imgs/autor12.jpg  used on input line 7875.
 <./imgs/cena15.jpg, id=1168, 418.2024pt x 625.8582pt>
 File: ./imgs/cena15.jpg Graphic file (type jpg)
 <use ./imgs/cena15.jpg>
-Package luatex.def Info: ./imgs/cena15.jpg  used on input line 8107.
+Package luatex.def Info: ./imgs/cena15.jpg  used on input line 8108.
 (luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-Overfull \hbox (74.91493pt too wide) in paragraph at lines 8107--8108
+Overfull \hbox (74.91493pt too wide) in paragraph at lines 8108--8109
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 93.33186pt on input line 8108.
+LaTeX Warning: Float too large for page by 93.33186pt on input line 8109.
 
 [358] [359<./imgs/cena15.jpg>] [360] [361] [362] [363] [364] [365] [366]
-[367] [368] [369]) (./POSFACIO.tex [370]
+[367] [368] [369]) (./POSFACIO.tex [370] [371]
+<./imgs/bella.jpg, id=1213, 201.3924pt x 145.7445pt>
+File: ./imgs/bella.jpg Graphic file (type jpg)
+<use ./imgs/bella.jpg>
+Package luatex.def Info: ./imgs/bella.jpg  used on input line 5.
+(luatex.def)             Requested size: 142.26378pt x 102.95447pt.
+ [372<./imgs/bella.jpg>]
 File: ./imgs/autor1.jpg Graphic file (type jpg)
 <use ./imgs/autor1.jpg>
-Package luatex.def Info: ./imgs/autor1.jpg  used on input line 6.
+Package luatex.def Info: ./imgs/autor1.jpg  used on input line 16.
 (luatex.def)             Requested size: 57.81621pt x 75.09085pt.
- [371
+ [373
 
-] [372]
+]
 File: ./imgs/autor2.jpg Graphic file (type jpg)
 <use ./imgs/autor2.jpg>
-Package luatex.def Info: ./imgs/autor2.jpg  used on input line 48.
+Package luatex.def Info: ./imgs/autor2.jpg  used on input line 58.
 (luatex.def)             Requested size: 57.81621pt x 69.75848pt.
- [373]
+
+[374] [375]
 File: ./imgs/autor3.jpg Graphic file (type jpg)
 <use ./imgs/autor3.jpg>
-Package luatex.def Info: ./imgs/autor3.jpg  used on input line 91.
+Package luatex.def Info: ./imgs/autor3.jpg  used on input line 101.
 (luatex.def)             Requested size: 57.81621pt x 69.01671pt.
- [374] [375] [376]
+ [376] [377]
 File: ./imgs/autor4.jpg Graphic file (type jpg)
 <use ./imgs/autor4.jpg>
-Package luatex.def Info: ./imgs/autor4.jpg  used on input line 154.
+Package luatex.def Info: ./imgs/autor4.jpg  used on input line 164.
 (luatex.def)             Requested size: 57.81621pt x 63.0032pt.
-
-[377] [378]
+ [378]
 File: ./imgs/autor5.jpg Graphic file (type jpg)
 <use ./imgs/autor5.jpg>
-Package luatex.def Info: ./imgs/autor5.jpg  used on input line 205.
+Package luatex.def Info: ./imgs/autor5.jpg  used on input line 215.
 (luatex.def)             Requested size: 57.81621pt x 69.09409pt.
- [379]
+ [379] [380]
 File: ./imgs/autor6.jpg Graphic file (type jpg)
 <use ./imgs/autor6.jpg>
-Package luatex.def Info: ./imgs/autor6.jpg  used on input line 246.
+Package luatex.def Info: ./imgs/autor6.jpg  used on input line 256.
 (luatex.def)             Requested size: 57.81621pt x 67.52126pt.
- [380] [381]
+ [381]
 File: ./imgs/autor7.jpg Graphic file (type jpg)
 <use ./imgs/autor7.jpg>
-Package luatex.def Info: ./imgs/autor7.jpg  used on input line 305.
+Package luatex.def Info: ./imgs/autor7.jpg  used on input line 315.
 (luatex.def)             Requested size: 57.81621pt x 63.04216pt.
  [382] [383]
 File: ./imgs/autor8.jpg Graphic file (type jpg)
 <use ./imgs/autor8.jpg>
-Package luatex.def Info: ./imgs/autor8.jpg  used on input line 357.
+Package luatex.def Info: ./imgs/autor8.jpg  used on input line 367.
 (luatex.def)             Requested size: 57.81621pt x 70.7216pt.
- [384] [385]
+ [384]
 File: ./imgs/autor9.jpg Graphic file (type jpg)
 <use ./imgs/autor9.jpg>
-Package luatex.def Info: ./imgs/autor9.jpg  used on input line 399.
+Package luatex.def Info: ./imgs/autor9.jpg  used on input line 409.
 (luatex.def)             Requested size: 57.81621pt x 63.58565pt.
- [386] [387]
+ [385]
+[386]
 File: ./imgs/autor10.jpg Graphic file (type jpg)
 <use ./imgs/autor10.jpg>
-Package luatex.def Info: ./imgs/autor10.jpg  used on input line 453.
+Package luatex.def Info: ./imgs/autor10.jpg  used on input line 463.
 (luatex.def)             Requested size: 57.81621pt x 73.12108pt.
- [388]
-[389]
+ [387] [388]
 File: ./imgs/autor11.jpg Graphic file (type jpg)
 <use ./imgs/autor11.jpg>
-Package luatex.def Info: ./imgs/autor11.jpg  used on input line 517.
+Package luatex.def Info: ./imgs/autor11.jpg  used on input line 527.
 (luatex.def)             Requested size: 57.81621pt x 75.58667pt.
- [390] [391]
+ [389] [390]
 File: ./imgs/autor12.jpg Graphic file (type jpg)
 <use ./imgs/autor12.jpg>
-Package luatex.def Info: ./imgs/autor12.jpg  used on input line 566.
+Package luatex.def Info: ./imgs/autor12.jpg  used on input line 576.
 (luatex.def)             Requested size: 57.81621pt x 65.31242pt.
- [392] [393] [394] [395
+ [391] [392] [393
 
-] [396] [397]) [398])
+] [394]
+Underfull \hbox (badness 10000) in paragraph at lines 664--665
+
+ []
+
+[395] [396] [397]) [398])
 
 ******************************************************
 Stock height and width: 845.04684pt by 597.50787pt
@@ -1932,24 +1986,25 @@ Sidefootvsep and sidefootheight: 13.6pt and 539.9202pt
 
 (./LIVRO.aux (./INPUTS.aux))
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 663 ({)
+### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 20883 strings out of 494480
+ 20972 strings out of 494480
  100000,794899 words of node,token memory allocated
- 5038 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 104 glue, 436 glyph, 148 attribute, 191 glue_spec, 
-148 attribute_list, 3 shape, 4 write nodes
-   avail lists: 1:1,2:341,3:155,4:61,5:1087,6:5528,7:2632,8:54,9:237,10:24,11:61
+ 6072 words of node memory still in use:
+   5 hlist, 1 vlist, 2 rule, 104 glue, 586 glyph, 166 attribute, 200 glue_spec, 
+166 attribute_list, 3 shape, 4 write nodes
+   avail lists: 1:1,2:311,3:155,4:62,5:1077,6:5378,7:2632,8:52,9:236,10:24,11:61
 2
- 23788 multiletter control sequences out of 65536+600000
- 134 fonts using 38182199 bytes
- 77i,15n,84p,1329b,515s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 23821 multiletter control sequences out of 65536+600000
+ 141 fonts using 41524079 bytes
+ 79i,14n,84p,1329b,515s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/adforn/OrnementsADF.enc}</home/ed
 lab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-BookIt.ttf></home/
 edlab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-Light.ttf></home
@@ -1959,9 +2014,9 @@ ome/edlab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-Bold.ttf></h
 ome/edlab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-Book.ttf></u
 sr/share/texlive/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb>
-Output written on LIVRO.pdf (398 pages, 29092474 bytes).
+Output written on LIVRO.pdf (398 pages, 29255051 bytes).
 
-PDF statistics: 1347 PDF objects out of 1440 (max. 8388607)
+PDF statistics: 1348 PDF objects out of 1440 (max. 8388607)
  883 compressed objects within 9 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
