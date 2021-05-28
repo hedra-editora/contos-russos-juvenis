@@ -79,12 +79,12 @@ ItalicFont = BigCityGrotesquePro-LightIt.ttf ]
 % Estilos
 \makeoddhead{baruch}{}{}{}
 \makeevenhead{baruch}{}{}{}
-\makeevenfoot{baruch}{\sffamily\scriptsize\thepage}{\sffamily\scriptsize\scshape\MakeLowercase{\parttitle}}{}
-\makeoddfoot{baruch}{}{\sffamily\scriptsize\scshape\MakeTextLowercase{\leftmark}}{\sffamily\scriptsize\thepage}
+\makeevenfoot{baruch}{\sffamily\scriptsize\scshape\thepage\quad\MakeLowercase{\parttitle}}{}{}
+\makeoddfoot{baruch}{}{}{\sffamily\scriptsize\scshape\MakeTextLowercase{\leftmark}\quad\thepage}
 \pagestyle{baruch}		
 \headstyles{baruch}
 
-\newcommand{\subtitulo}[1]{\NoCaseChange{\textnormal{\break\Large#1}}}
+\newcommand{\subtitulo}[1]{\NoCaseChange{\textnormal{\break\large#1}}}
 
 
 \begin{document}
