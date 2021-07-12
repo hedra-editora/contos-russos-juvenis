@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.9.13)  12 JUL 2021 09:22
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.9.13)  12 JUL 2021 11:58
  restricted system commands enabled.
 **LIVRO.tex
 (./LIVRO.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.089 seconds
+luaotfload | main : initialization completed in 0.106 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docum
@@ -1419,14 +1419,8 @@ Package marginnote Info: \pdfoutput not 0 or unimportant and
 
 \openout2 = INPUTS.aux
 
-(./INPUTS.tex (./1-fronte.tex(load luc: /home/edlab/.texlive2017/texmf-var/luate
-x-cache/generic/fonts/otl/lmmono10-regular.luc)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-(load luc: /home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmm
-ono8-regular.luc) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(./INPUTS.tex (./1-fronte.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.m
+ap}
 
 
 ] [2]) (./3-rosto.tex
@@ -1434,7 +1428,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `BigCityGrotesquePro-Medium.ttf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<./logo.jpg, id=12, 251.0178pt x 62.1522pt>
+<./logo.jpg, id=11, 251.0178pt x 62.1522pt>
 File: ./logo.jpg Graphic file (type jpg)
 <use ./logo.jpg>
 Package luatex.def Info: ./logo.jpg  used on input line 67.
@@ -1442,7 +1436,7 @@ Package luatex.def Info: ./logo.jpg  used on input line 67.
 ) [3<./logo.jpg>] (./2-creditos.tex
 warning  (file ./bella.pdf) (pdf inclusion): PDF inclusion: found PDF version '1
 .7', but at most version '1.5' allowed
-<./bella.pdf, id=18, 166.33533pt x 142.91794pt>
+<./bella.pdf, id=17, 166.33533pt x 142.91794pt>
 File: ./bella.pdf Graphic file (type pdf)
 <use ./bella.pdf>
 Package luatex.def Info: ./bella.pdf  used on input line 8.
@@ -1497,6 +1491,8 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [9]
+Inserting `luaotfload.letterspace' at position 2 in `pre_linebreak_filter'.
+Inserting `luaotfload.letterspace' at position 2 in `hpack_filter'.
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -1554,12 +1550,6 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [21]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[22]
-Inserting `luaotfload.letterspace' at position 2 in `pre_linebreak_filter'.
-Inserting `luaotfload.letterspace' at position 2 in `hpack_filter'.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 439.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1568,16 +1558,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
+[22]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
 [23]
-Underfull \hbox (badness 2809) in paragraph at lines 475--475
-[]\TU/BigCityGrotesquePro-Book.ttf(0)/m/n/8 󰝉󰡚. []\TU/BigCityGrotesquePro
--Book.ttf(0)/m/sc/8 󰆌󰇔󰋞󰆍󰛃󰊕󰅅󰀃󰆍\TU/BigCityGrotesquePro
--Book.ttf(0)/m/n/8 , Da-ni-ela. A pe-dra viva de Man-dels-tam. \TU/BigCityGrote
-squePro-Book.ttf(0)/m/it/8 Re-vista Rosa, \TU/BigCityGrotesquePro-Book.ttf(0)/m
-/n/8 sé-rie
- []
-
-
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -1597,23 +1582,19 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[28]
+[28])
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[29])
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+[29] (./TEXTO.tex [30
 
-
-[30] (./TEXTO.tex
+]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `BigCityGrotesquePro-Light.ttf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [31
-
-]
-<./imgs/autor1.jpg, id=125, 321.6015pt x 417.7206pt>
+ [31]
+<./imgs/autor1.jpg, id=124, 321.6015pt x 417.7206pt>
 File: ./imgs/autor1.jpg Graphic file (type jpg)
 <use ./imgs/autor1.jpg>
 Package luatex.def Info: ./imgs/autor1.jpg  used on input line 9.
@@ -1668,7 +1649,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [43]
-<./imgs/cena1.jpg, id=163, 418.2024pt x 625.8582pt>
+<./imgs/cena1.jpg, id=162, 418.2024pt x 625.8582pt>
 File: ./imgs/cena1.jpg Graphic file (type jpg)
 <use ./imgs/cena1.jpg>
 Package luatex.def Info: ./imgs/cena1.jpg  used on input line 279.
@@ -1709,7 +1690,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 [48] [49
 
 ]
-<./imgs/autor2.jpg, id=183, 319.4334pt x 385.44pt>
+<./imgs/autor2.jpg, id=182, 319.4334pt x 385.44pt>
 File: ./imgs/autor2.jpg Graphic file (type jpg)
 <use ./imgs/autor2.jpg>
 Package luatex.def Info: ./imgs/autor2.jpg  used on input line 359.
@@ -1750,12 +1731,7 @@ Underfull \hbox (badness 1874) in paragraph at lines 560--563
 s res-mun-gando en-tre si:
  []
 
-
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[58]
-<./imgs/cena2.jpg, id=212, 418.2024pt x 625.8582pt>
+<./imgs/cena2.jpg, id=208, 418.2024pt x 625.8582pt>
 File: ./imgs/cena2.jpg Graphic file (type jpg)
 <use ./imgs/cena2.jpg>
 Package luatex.def Info: ./imgs/cena2.jpg  used on input line 581.
@@ -1772,11 +1748,15 @@ LaTeX Warning: Float too large for page by 76.26048pt on input line 582.
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[59]
+[58]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[60<./imgs/cena2.jpg>]
+[59<./imgs/cena2.jpg>]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[60]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -1784,25 +1764,29 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[62]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+[62] [63
 
-
-[63] [64
-
-] [65]
-<./imgs/autor3.jpg, id=235, 326.9013pt x 390.258pt>
+]
+<./imgs/autor3.jpg, id=228, 326.9013pt x 390.258pt>
 File: ./imgs/autor3.jpg Graphic file (type jpg)
 <use ./imgs/autor3.jpg>
 Package luatex.def Info: ./imgs/autor3.jpg  used on input line 675.
 (luatex.def)             Requested size: 170.71652pt x 203.80472pt.
- [66<./imgs/autor3.jpg>]
+ [64<./imgs/autor3.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[67
+[65
 
 ]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[66]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[67]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -1875,19 +1859,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [85]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[86]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[87]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[88]
-<./imgs/cena3.jpg, id=307, 389.7762pt x 597.432pt>
+<./imgs/cena3.jpg, id=297, 389.7762pt x 597.432pt>
 File: ./imgs/cena3.jpg Graphic file (type jpg)
 <use ./imgs/cena3.jpg>
 Package luatex.def Info: ./imgs/cena3.jpg  used on input line 1238.
@@ -1904,11 +1876,23 @@ LaTeX Warning: Float too large for page by 59.21529pt on input line 1239.
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
+[86]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[87<./imgs/cena3.jpg>]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[88]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
 [89]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[90<./imgs/cena3.jpg>]
+[90]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -1984,33 +1968,29 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[109]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+[109] [110
 
-
-[110]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[111]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[112] [113
-
-]
-<./imgs/autor4.jpg, id=387, 346.4142pt x 377.4903pt>
+] [111]
+<./imgs/autor4.jpg, id=380, 346.4142pt x 377.4903pt>
 File: ./imgs/autor4.jpg Graphic file (type jpg)
 <use ./imgs/autor4.jpg>
 Package luatex.def Info: ./imgs/autor4.jpg  used on input line 1803.
 (luatex.def)             Requested size: 170.71652pt x 186.03171pt.
- [114<./imgs/autor4.jpg>]
+ [112<./imgs/autor4.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[115
+[113
 
 ]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[114]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[115]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2059,6 +2039,20 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [127]
+<./imgs/cena4.jpg, id=430, 389.7762pt x 597.432pt>
+File: ./imgs/cena4.jpg Graphic file (type jpg)
+<use ./imgs/cena4.jpg>
+Package luatex.def Info: ./imgs/cena4.jpg  used on input line 2236.
+(luatex.def)             Requested size: 389.77524pt x 597.43054pt.
+
+Overfull \hbox (71.5602pt too wide) in paragraph at lines 2236--2237
+[]| [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 64.90575pt on input line 2237.
+
+
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2066,25 +2060,11 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[129]
+[129<./imgs/cena4.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [130]
-<./imgs/cena4.jpg, id=440, 389.7762pt x 597.432pt>
-File: ./imgs/cena4.jpg Graphic file (type jpg)
-<use ./imgs/cena4.jpg>
-Package luatex.def Info: ./imgs/cena4.jpg  used on input line 2250.
-(luatex.def)             Requested size: 389.77524pt x 597.43054pt.
-
-Overfull \hbox (71.5602pt too wide) in paragraph at lines 2250--2251
-[]| [] 
- []
-
-
-LaTeX Warning: Float too large for page by 64.90575pt on input line 2251.
-
-
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2092,7 +2072,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[132<./imgs/cena4.jpg>]
+[132]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2176,33 +2156,29 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[153]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+[153] [154
 
-
-[154]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[155]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[156] [157
-
-]
-<./imgs/autor5.jpg, id=526, 312.4473pt x 373.395pt>
+] [155]
+<./imgs/autor5.jpg, id=519, 312.4473pt x 373.395pt>
 File: ./imgs/autor5.jpg Graphic file (type jpg)
 <use ./imgs/autor5.jpg>
-Package luatex.def Info: ./imgs/autor5.jpg  used on input line 2939.
+Package luatex.def Info: ./imgs/autor5.jpg  used on input line 2940.
 (luatex.def)             Requested size: 170.71652pt x 204.02325pt.
- [158<./imgs/autor5.jpg>]
+ [156<./imgs/autor5.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[159
+[157
 
 ]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[158]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[159]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2219,6 +2195,20 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [163]
+<./imgs/cena5.jpg, id=545, 389.7762pt x 597.432pt>
+File: ./imgs/cena5.jpg Graphic file (type jpg)
+<use ./imgs/cena5.jpg>
+Package luatex.def Info: ./imgs/cena5.jpg  used on input line 3198.
+(luatex.def)             Requested size: 389.77524pt x 597.43054pt.
+
+Overfull \hbox (71.5602pt too wide) in paragraph at lines 3198--3199
+[]| [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 64.90575pt on input line 3199.
+
+
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2226,25 +2216,11 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[165]
+[165<./imgs/cena5.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [166]
-<./imgs/cena5.jpg, id=555, 389.7762pt x 597.432pt>
-File: ./imgs/cena5.jpg Graphic file (type jpg)
-<use ./imgs/cena5.jpg>
-Package luatex.def Info: ./imgs/cena5.jpg  used on input line 3197.
-(luatex.def)             Requested size: 389.77524pt x 597.43054pt.
-
-Overfull \hbox (71.5602pt too wide) in paragraph at lines 3197--3198
-[]| [] 
- []
-
-
-LaTeX Warning: Float too large for page by 64.90575pt on input line 3198.
-
-
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2252,33 +2228,51 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[168<./imgs/cena5.jpg>]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[169]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[170]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[171] [172
-
-] [173]
-<./imgs/autor6.jpg, id=578, 318.4698pt x 371.9496pt>
-File: ./imgs/autor6.jpg Graphic file (type jpg)
-<use ./imgs/autor6.jpg>
-Package luatex.def Info: ./imgs/autor6.jpg  used on input line 3316.
-(luatex.def)             Requested size: 170.71652pt x 199.37984pt.
- [174<./imgs/autor6.jpg>]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[175
+[168] [169
 
 ]
+<./imgs/autor6.jpg, id=564, 318.4698pt x 371.9496pt>
+File: ./imgs/autor6.jpg Graphic file (type jpg)
+<use ./imgs/autor6.jpg>
+Package luatex.def Info: ./imgs/autor6.jpg  used on input line 3317.
+(luatex.def)             Requested size: 170.71652pt x 199.37984pt.
+ [170<./imgs/autor6.jpg>]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[171
+
+]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[172]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[173]
+<./imgs/cena6.jpg, id=578, 389.7762pt x 597.432pt>
+File: ./imgs/cena6.jpg Graphic file (type jpg)
+<use ./imgs/cena6.jpg>
+Package luatex.def Info: ./imgs/cena6.jpg  used on input line 3406.
+(luatex.def)             Requested size: 389.77524pt x 597.43054pt.
+
+Overfull \hbox (71.5602pt too wide) in paragraph at lines 3406--3407
+[]| [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 64.90575pt on input line 3407.
+
+
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[174]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[175<./imgs/cena6.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2286,25 +2280,9 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[177]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+[177] [178
 
-
-[178]
-<./imgs/cena6.jpg, id=594, 389.7762pt x 597.432pt>
-File: ./imgs/cena6.jpg Graphic file (type jpg)
-<use ./imgs/cena6.jpg>
-Package luatex.def Info: ./imgs/cena6.jpg  used on input line 3444.
-(luatex.def)             Requested size: 389.77524pt x 597.43054pt.
-
-Overfull \hbox (71.5602pt too wide) in paragraph at lines 3444--3445
-[]| [] 
- []
-
-
-LaTeX Warning: Float too large for page by 64.90575pt on input line 3445.
-
-
+]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2316,7 +2294,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[181<./imgs/cena6.jpg>]
+[181]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2324,9 +2302,21 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[183
+[183]
+<./imgs/cena7.jpg, id=610, 418.2024pt x 625.8582pt>
+File: ./imgs/cena7.jpg Graphic file (type jpg)
+<use ./imgs/cena7.jpg>
+Package luatex.def Info: ./imgs/cena7.jpg  used on input line 3646.
+(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-]
+Overfull \hbox (80.06949pt too wide) in paragraph at lines 3646--3647
+[]| [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 76.26048pt on input line 3647.
+
+
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2334,7 +2324,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[185]
+[185<./imgs/cena7.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2343,20 +2333,6 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [187]
-<./imgs/cena7.jpg, id=623, 418.2024pt x 625.8582pt>
-File: ./imgs/cena7.jpg Graphic file (type jpg)
-<use ./imgs/cena7.jpg>
-Package luatex.def Info: ./imgs/cena7.jpg  used on input line 3645.
-(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
-
-Overfull \hbox (80.06949pt too wide) in paragraph at lines 3645--3646
-[]| [] 
- []
-
-
-LaTeX Warning: Float too large for page by 76.26048pt on input line 3646.
-
-
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2364,7 +2340,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[189<./imgs/cena7.jpg>]
+[189]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2372,41 +2348,51 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[191]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+[191] [192
 
-
-[192]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[193]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[194]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[195]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[196] [197
-
-]
-<./imgs/autor7.jpg, id=656, 340.8735pt x 371.7087pt>
+] [193]
+<./imgs/autor7.jpg, id=642, 340.8735pt x 371.7087pt>
 File: ./imgs/autor7.jpg Graphic file (type jpg)
 <use ./imgs/autor7.jpg>
-Package luatex.def Info: ./imgs/autor7.jpg  used on input line 3820.
+Package luatex.def Info: ./imgs/autor7.jpg  used on input line 3821.
 (luatex.def)             Requested size: 170.71652pt x 186.16583pt.
- [198<./imgs/autor7.jpg>]
+ [194<./imgs/autor7.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[199
+[195
 
 ]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[196]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[197]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[198]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[199]
+<./imgs/cena8.jpg, id=662, 418.2024pt x 625.8582pt>
+File: ./imgs/cena8.jpg Graphic file (type jpg)
+<use ./imgs/cena8.jpg>
+Package luatex.def Info: ./imgs/cena8.jpg  used on input line 4003.
+(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
+
+Overfull \hbox (85.75995pt too wide) in paragraph at lines 4003--4004
+[]| [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 79.1055pt on input line 4004.
+
+
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2414,7 +2400,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[201]
+[201<./imgs/cena8.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2423,20 +2409,6 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [203]
-<./imgs/cena8.jpg, id=676, 418.2024pt x 625.8582pt>
-File: ./imgs/cena8.jpg Graphic file (type jpg)
-<use ./imgs/cena8.jpg>
-Package luatex.def Info: ./imgs/cena8.jpg  used on input line 4002.
-(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
-
-Overfull \hbox (85.75995pt too wide) in paragraph at lines 4002--4003
-[]| [] 
- []
-
-
-LaTeX Warning: Float too large for page by 79.1055pt on input line 4003.
-
-
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2444,7 +2416,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[205<./imgs/cena8.jpg>]
+[205]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2460,37 +2432,51 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[209]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+[209] [210
 
-
-[210]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[211]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[212]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[213] [214
-
-] [215]
-<./imgs/autor8.jpg, id=714, 312.9291pt x 382.7901pt>
+] [211]
+<./imgs/autor8.jpg, id=701, 312.9291pt x 382.7901pt>
 File: ./imgs/autor8.jpg Graphic file (type jpg)
 <use ./imgs/autor8.jpg>
-Package luatex.def Info: ./imgs/autor8.jpg  used on input line 4226.
+Package luatex.def Info: ./imgs/autor8.jpg  used on input line 4227.
 (luatex.def)             Requested size: 170.71652pt x 208.82965pt.
- [216<./imgs/autor8.jpg>]
+ [212<./imgs/autor8.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[217
+[213
 
 ]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[214]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[215]
+<./imgs/cena9.jpg, id=714, 418.2024pt x 625.8582pt>
+File: ./imgs/cena9.jpg Graphic file (type jpg)
+<use ./imgs/cena9.jpg>
+Package luatex.def Info: ./imgs/cena9.jpg  used on input line 4328.
+(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
+
+Overfull \hbox (85.75995pt too wide) in paragraph at lines 4328--4329
+[]| [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 93.33186pt on input line 4329.
+
+
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[216]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[217<./imgs/cena9.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2503,20 +2489,6 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [220]
-<./imgs/cena9.jpg, id=730, 418.2024pt x 625.8582pt>
-File: ./imgs/cena9.jpg Graphic file (type jpg)
-<use ./imgs/cena9.jpg>
-Package luatex.def Info: ./imgs/cena9.jpg  used on input line 4353.
-(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
-
-Overfull \hbox (85.75995pt too wide) in paragraph at lines 4353--4354
-[]| [] 
- []
-
-
-LaTeX Warning: Float too large for page by 93.33186pt on input line 4354.
-
-
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2524,7 +2496,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[222<./imgs/cena9.jpg>]
+[222]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2572,37 +2544,37 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[234]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[235]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[236]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[237]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[238] [239
+[234] [235
 
 ]
-<./imgs/autor9.jpg, id=791, 376.5267pt x 414.1071pt>
+<./imgs/autor9.jpg, id=778, 376.5267pt x 414.1071pt>
 File: ./imgs/autor9.jpg Graphic file (type jpg)
 <use ./imgs/autor9.jpg>
-Package luatex.def Info: ./imgs/autor9.jpg  used on input line 4861.
+Package luatex.def Info: ./imgs/autor9.jpg  used on input line 4864.
 (luatex.def)             Requested size: 170.71652pt x 187.75555pt.
- [240<./imgs/autor9.jpg>]
+ [236<./imgs/autor9.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[241
+[237
 
 ]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[238]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[239]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[240]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[241]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2707,6 +2679,20 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [267]
+<./imgs/cena10.jpg, id=879, 418.2024pt x 625.8582pt>
+File: ./imgs/cena10.jpg Graphic file (type jpg)
+<use ./imgs/cena10.jpg>
+Package luatex.def Info: ./imgs/cena10.jpg  used on input line 5723.
+(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
+
+Overfull \hbox (85.75995pt too wide) in paragraph at lines 5723--5724
+[]| [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 93.33186pt on input line 5724.
+
+
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2714,7 +2700,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[269]
+[269<./imgs/cena10.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2731,20 +2717,6 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [273]
-<./imgs/cena10.jpg, id=899, 418.2024pt x 625.8582pt>
-File: ./imgs/cena10.jpg Graphic file (type jpg)
-<use ./imgs/cena10.jpg>
-Package luatex.def Info: ./imgs/cena10.jpg  used on input line 5737.
-(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
-
-Overfull \hbox (85.75995pt too wide) in paragraph at lines 5737--5738
-[]| [] 
- []
-
-
-LaTeX Warning: Float too large for page by 93.33186pt on input line 5738.
-
-
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2752,7 +2724,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[275<./imgs/cena10.jpg>]
+[275]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2808,11 +2780,9 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[289]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+[289] [290
 
-
-[290]
+]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2832,9 +2802,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[295
-
-]
+[295]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2859,6 +2827,20 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [301]
+<./imgs/cena11.jpg, id=987, 418.2024pt x 625.8582pt>
+File: ./imgs/cena11.jpg Graphic file (type jpg)
+<use ./imgs/cena11.jpg>
+Package luatex.def Info: ./imgs/cena11.jpg  used on input line 6590.
+(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
+
+Overfull \hbox (80.06949pt too wide) in paragraph at lines 6590--6591
+[]| [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 81.95094pt on input line 6591.
+
+
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2866,7 +2848,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[303]
+[303<./imgs/cena11.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2875,20 +2857,6 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [305]
-<./imgs/cena11.jpg, id=1000, 418.2024pt x 625.8582pt>
-File: ./imgs/cena11.jpg Graphic file (type jpg)
-<use ./imgs/cena11.jpg>
-Package luatex.def Info: ./imgs/cena11.jpg  used on input line 6585.
-(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
-
-Overfull \hbox (80.06949pt too wide) in paragraph at lines 6585--6586
-[]| [] 
- []
-
-
-LaTeX Warning: Float too large for page by 81.95094pt on input line 6586.
-
-
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2900,19 +2868,21 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[308<./imgs/cena11.jpg>]
+[308] [309
+
+]
+<./imgs/autor10.jpg, id=1012, 323.0469pt x 408.5664pt>
+File: ./imgs/autor10.jpg Graphic file (type jpg)
+<use ./imgs/autor10.jpg>
+Package luatex.def Info: ./imgs/autor10.jpg  used on input line 6751.
+(luatex.def)             Requested size: 170.71652pt x 215.91574pt.
+ [310<./imgs/autor10.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[309]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+[311
 
-
-[310]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[311]
+]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2920,21 +2890,37 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[313] [314
+[313]
+<./imgs/cena12.jpg, id=1026, 418.2024pt x 625.8582pt>
+File: ./imgs/cena12.jpg Graphic file (type jpg)
+<use ./imgs/cena12.jpg>
+Package luatex.def Info: ./imgs/cena12.jpg  used on input line 6876.
+(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-] [315]
-<./imgs/autor10.jpg, id=1032, 323.0469pt x 408.5664pt>
-File: ./imgs/autor10.jpg Graphic file (type jpg)
-<use ./imgs/autor10.jpg>
-Package luatex.def Info: ./imgs/autor10.jpg  used on input line 6746.
-(luatex.def)             Requested size: 170.71652pt x 215.91574pt.
- [316<./imgs/autor10.jpg>]
+Overfull \hbox (80.06949pt too wide) in paragraph at lines 6876--6877
+[]| [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 79.1055pt on input line 6877.
+
+
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[317
+[314]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
-]
+
+[315<./imgs/cena12.jpg>]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[316]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[317]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2943,20 +2929,6 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [319]
-<./imgs/cena12.jpg, id=1045, 418.2024pt x 625.8582pt>
-File: ./imgs/cena12.jpg Graphic file (type jpg)
-<use ./imgs/cena12.jpg>
-Package luatex.def Info: ./imgs/cena12.jpg  used on input line 6871.
-(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
-
-Overfull \hbox (88.60541pt too wide) in paragraph at lines 6871--6872
-[]| [] 
- []
-
-
-LaTeX Warning: Float too large for page by 79.1055pt on input line 6872.
-
-
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2964,15 +2936,27 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[321<./imgs/cena12.jpg>]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+[321] [322
 
-
-[322]
+]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [323]
+<./imgs/cena13.jpg, id=1058, 418.2024pt x 625.8582pt>
+File: ./imgs/cena13.jpg Graphic file (type jpg)
+<use ./imgs/cena13.jpg>
+Package luatex.def Info: ./imgs/cena13.jpg  used on input line 7124.
+(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
+
+Overfull \hbox (80.06949pt too wide) in paragraph at lines 7124--7125
+[]| [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 81.95094pt on input line 7125.
+
+
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2980,7 +2964,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[325]
+[325<./imgs/cena13.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -2988,27 +2972,15 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[327] [328
+[327]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
-]
+
+[328]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [329]
-<./imgs/cena13.jpg, id=1077, 418.2024pt x 625.8582pt>
-File: ./imgs/cena13.jpg Graphic file (type jpg)
-<use ./imgs/cena13.jpg>
-Package luatex.def Info: ./imgs/cena13.jpg  used on input line 7119.
-(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
-
-Overfull \hbox (80.06949pt too wide) in paragraph at lines 7119--7120
-[]| [] 
- []
-
-
-LaTeX Warning: Float too large for page by 81.95094pt on input line 7120.
-
-
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -3016,23 +2988,21 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[331<./imgs/cena13.jpg>]
+[331] [332
+
+] [333]
+<./imgs/autor11.jpg, id=1090, 294.6207pt x 385.1991pt>
+File: ./imgs/autor11.jpg Graphic file (type jpg)
+<use ./imgs/autor11.jpg>
+Package luatex.def Info: ./imgs/autor11.jpg  used on input line 7311.
+(luatex.def)             Requested size: 170.71652pt x 223.20403pt.
+ [334<./imgs/autor11.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[332]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+[335
 
-
-[333]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[334]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[335]
+]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -3044,21 +3014,19 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[338] [339
-
-]
-<./imgs/autor11.jpg, id=1109, 294.6207pt x 385.1991pt>
-File: ./imgs/autor11.jpg Graphic file (type jpg)
-<use ./imgs/autor11.jpg>
-Package luatex.def Info: ./imgs/autor11.jpg  used on input line 7306.
-(luatex.def)             Requested size: 170.71652pt x 223.20403pt.
- [340<./imgs/autor11.jpg>]
+[338]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[341
+[339]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
-]
+
+[340]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[341]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -3083,6 +3051,20 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [347]
+<./imgs/cena14.jpg, id=1135, 418.2024pt x 625.8582pt>
+File: ./imgs/cena14.jpg Graphic file (type jpg)
+<use ./imgs/cena14.jpg>
+Package luatex.def Info: ./imgs/cena14.jpg  used on input line 7769.
+(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
+
+Overfull \hbox (85.75995pt too wide) in paragraph at lines 7769--7770
+[]| [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 81.95094pt on input line 7770.
+
+
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -3090,7 +3072,13 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[349]
+[349<./imgs/cena14.jpg>]
+Underfull \hbox (badness 1490) in paragraph at lines 7777--7780
+[]\TU/BigCityGrotesquePro-Book.ttf(0)/m/n/10.95 Jór-jik dei-tou-se na mesa do 
+ca-ra-man-chão e fi-cou
+ []
+
+
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -3098,43 +3086,21 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[351]
+[351] [352
+
+] [353]
+<./imgs/autor12.jpg, id=1155, 336.2964pt x 379.8993pt>
+File: ./imgs/autor12.jpg Graphic file (type jpg)
+<use ./imgs/autor12.jpg>
+Package luatex.def Info: ./imgs/autor12.jpg  used on input line 7849.
+(luatex.def)             Requested size: 170.71652pt x 192.85916pt.
+ [354<./imgs/autor12.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[352]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+[355
 
-
-[353]
-<./imgs/cena14.jpg, id=1155, 418.2024pt x 625.8582pt>
-File: ./imgs/cena14.jpg Graphic file (type jpg)
-<use ./imgs/cena14.jpg>
-Package luatex.def Info: ./imgs/cena14.jpg  used on input line 7764.
-(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
-
-Overfull \hbox (85.75995pt too wide) in paragraph at lines 7764--7765
-[]| [] 
- []
-
-
-LaTeX Warning: Float too large for page by 81.95094pt on input line 7765.
-
-
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[354]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[355<./imgs/cena14.jpg>]
-Underfull \hbox (badness 1490) in paragraph at lines 7772--7775
-[]\TU/BigCityGrotesquePro-Book.ttf(0)/m/n/10.95 Jór-jik dei-tou-se na mesa do 
-ca-ra-man-chão e fi-cou
- []
-
-
+]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -3146,21 +3112,33 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[358] [359
-
-]
-<./imgs/autor12.jpg, id=1174, 336.2964pt x 379.8993pt>
-File: ./imgs/autor12.jpg Graphic file (type jpg)
-<use ./imgs/autor12.jpg>
-Package luatex.def Info: ./imgs/autor12.jpg  used on input line 7844.
-(luatex.def)             Requested size: 170.71652pt x 192.85916pt.
- [360<./imgs/autor12.jpg>]
+[358]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[361
+[359]
+<./imgs/cena15.jpg, id=1174, 418.2024pt x 625.8582pt>
+File: ./imgs/cena15.jpg Graphic file (type jpg)
+<use ./imgs/cena15.jpg>
+Package luatex.def Info: ./imgs/cena15.jpg  used on input line 8081.
+(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
 
-]
+Overfull \hbox (82.91493pt too wide) in paragraph at lines 8081--8082
+[]| [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 93.33186pt on input line 8082.
+
+
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[360]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[361<./imgs/cena15.jpg>]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -3177,20 +3155,6 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [365]
-<./imgs/cena15.jpg, id=1194, 418.2024pt x 625.8582pt>
-File: ./imgs/cena15.jpg Graphic file (type jpg)
-<use ./imgs/cena15.jpg>
-Package luatex.def Info: ./imgs/cena15.jpg  used on input line 8076.
-(luatex.def)             Requested size: 418.20137pt x 625.85666pt.
-
-Overfull \hbox (82.91493pt too wide) in paragraph at lines 8076--8077
-[]| [] 
- []
-
-
-LaTeX Warning: Float too large for page by 93.33186pt on input line 8077.
-
-
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -3198,7 +3162,7 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[367<./imgs/cena15.jpg>]
+[367]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
@@ -3214,41 +3178,17 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[371]
+[371]) (./POSFACIO.tex
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[372]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[373]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[374]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[375]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[376]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[377]) (./POSFACIO.tex
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[378] [379]
-<./imgs/bella.jpg, id=1238, 201.3924pt x 145.7445pt>
+[372] [373]
+<./imgs/bella.jpg, id=1219, 201.3924pt x 145.7445pt>
 File: ./imgs/bella.jpg Graphic file (type jpg)
 <use ./imgs/bella.jpg>
 Package luatex.def Info: ./imgs/bella.jpg  used on input line 5.
 (luatex.def)             Requested size: 142.26378pt x 102.95447pt.
- [380<./imgs/bella.jpg>]
+ [374<./imgs/bella.jpg>]
 File: ./imgs/autor1.jpg Graphic file (type jpg)
 <use ./imgs/autor1.jpg>
 Package luatex.def Info: ./imgs/autor1.jpg  used on input line 16.
@@ -3257,7 +3197,7 @@ Package luatex.def Info: ./imgs/autor1.jpg  used on input line 16.
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[381
+[375
 
 ]
 File: ./imgs/autor2.jpg Graphic file (type jpg)
@@ -3268,11 +3208,11 @@ Package luatex.def Info: ./imgs/autor2.jpg  used on input line 59.
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[382]
+[376]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[383]
+[377]
 File: ./imgs/autor3.jpg Graphic file (type jpg)
 <use ./imgs/autor3.jpg>
 Package luatex.def Info: ./imgs/autor3.jpg  used on input line 103.
@@ -3281,15 +3221,59 @@ Package luatex.def Info: ./imgs/autor3.jpg  used on input line 103.
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[384]
+[378]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[385]
+[379]
 File: ./imgs/autor4.jpg Graphic file (type jpg)
 <use ./imgs/autor4.jpg>
 Package luatex.def Info: ./imgs/autor4.jpg  used on input line 164.
 (luatex.def)             Requested size: 57.81621pt x 63.0032pt.
+
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[380]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[381]
+File: ./imgs/autor5.jpg Graphic file (type jpg)
+<use ./imgs/autor5.jpg>
+Package luatex.def Info: ./imgs/autor5.jpg  used on input line 215.
+(luatex.def)             Requested size: 57.81621pt x 69.09409pt.
+
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[382]
+File: ./imgs/autor6.jpg Graphic file (type jpg)
+<use ./imgs/autor6.jpg>
+Package luatex.def Info: ./imgs/autor6.jpg  used on input line 258.
+(luatex.def)             Requested size: 57.81621pt x 67.52126pt.
+
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[383]
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[384]
+File: ./imgs/autor7.jpg Graphic file (type jpg)
+<use ./imgs/autor7.jpg>
+Package luatex.def Info: ./imgs/autor7.jpg  used on input line 318.
+(luatex.def)             Requested size: 57.81621pt x 63.04216pt.
+
+Overfull \vbox (7.90945pt too high) has occurred while \output is active []
+
+
+[385]
+File: ./imgs/autor8.jpg Graphic file (type jpg)
+<use ./imgs/autor8.jpg>
+Package luatex.def Info: ./imgs/autor8.jpg  used on input line 371.
+(luatex.def)             Requested size: 57.81621pt x 70.7216pt.
 
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
@@ -3299,19 +3283,19 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [387]
-File: ./imgs/autor5.jpg Graphic file (type jpg)
-<use ./imgs/autor5.jpg>
-Package luatex.def Info: ./imgs/autor5.jpg  used on input line 215.
-(luatex.def)             Requested size: 57.81621pt x 69.09409pt.
+File: ./imgs/autor9.jpg Graphic file (type jpg)
+<use ./imgs/autor9.jpg>
+Package luatex.def Info: ./imgs/autor9.jpg  used on input line 412.
+(luatex.def)             Requested size: 57.81621pt x 63.58565pt.
 
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [388]
-File: ./imgs/autor6.jpg Graphic file (type jpg)
-<use ./imgs/autor6.jpg>
-Package luatex.def Info: ./imgs/autor6.jpg  used on input line 258.
-(luatex.def)             Requested size: 57.81621pt x 67.52126pt.
+File: ./imgs/autor10.jpg Graphic file (type jpg)
+<use ./imgs/autor10.jpg>
+Package luatex.def Info: ./imgs/autor10.jpg  used on input line 467.
+(luatex.def)             Requested size: 57.81621pt x 73.12108pt.
 
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
@@ -3325,19 +3309,19 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [391]
-File: ./imgs/autor7.jpg Graphic file (type jpg)
-<use ./imgs/autor7.jpg>
-Package luatex.def Info: ./imgs/autor7.jpg  used on input line 318.
-(luatex.def)             Requested size: 57.81621pt x 63.04216pt.
+File: ./imgs/autor11.jpg Graphic file (type jpg)
+<use ./imgs/autor11.jpg>
+Package luatex.def Info: ./imgs/autor11.jpg  used on input line 531.
+(luatex.def)             Requested size: 57.81621pt x 75.58667pt.
 
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [392]
-File: ./imgs/autor8.jpg Graphic file (type jpg)
-<use ./imgs/autor8.jpg>
-Package luatex.def Info: ./imgs/autor8.jpg  used on input line 371.
-(luatex.def)             Requested size: 57.81621pt x 70.7216pt.
+File: ./imgs/autor12.jpg Graphic file (type jpg)
+<use ./imgs/autor12.jpg>
+Package luatex.def Info: ./imgs/autor12.jpg  used on input line 581.
+(luatex.def)             Requested size: 57.81621pt x 65.31242pt.
 
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
@@ -3347,69 +3331,21 @@ Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
 [394]
-File: ./imgs/autor9.jpg Graphic file (type jpg)
-<use ./imgs/autor9.jpg>
-Package luatex.def Info: ./imgs/autor9.jpg  used on input line 412.
-(luatex.def)             Requested size: 57.81621pt x 63.58565pt.
-
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[395]
-File: ./imgs/autor10.jpg Graphic file (type jpg)
-<use ./imgs/autor10.jpg>
-Package luatex.def Info: ./imgs/autor10.jpg  used on input line 467.
-(luatex.def)             Requested size: 57.81621pt x 73.12108pt.
+[395] [396
 
+]
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
 
 
-[396]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[397]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[398]
-File: ./imgs/autor11.jpg Graphic file (type jpg)
-<use ./imgs/autor11.jpg>
-Package luatex.def Info: ./imgs/autor11.jpg  used on input line 531.
-(luatex.def)             Requested size: 57.81621pt x 75.58667pt.
-
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[399]
-File: ./imgs/autor12.jpg Graphic file (type jpg)
-<use ./imgs/autor12.jpg>
-Package luatex.def Info: ./imgs/autor12.jpg  used on input line 581.
-(luatex.def)             Requested size: 57.81621pt x 65.31242pt.
-
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[400]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[401]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[402]
-Overfull \vbox (7.90945pt too high) has occurred while \output is active []
-
-
-[403
-
-] [404]
+[397] [398]
 Underfull \hbox (badness 10000) in paragraph at lines 670--671
 
  []
 
-[405] [406] [407]) [408])
+[399] [400] [401]) [402])
 
 ******************************************************
 Stock height and width: 845.04684pt by 597.50787pt
@@ -3447,16 +3383,16 @@ LaTeX Warning: There were multiply-defined labels.
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 20951 strings out of 494480
- 100000,794899 words of node,token memory allocated
- 5075 words of node memory still in use:
-   5 hlist, 1 vlist, 2 rule, 102 glue, 434 glyph, 147 attribute, 201 glue_spec, 
-147 attribute_list, 3 shape, 4 write nodes
-   avail lists: 1:1,2:335,3:159,4:63,5:1107,6:5355,7:2529,8:56,9:258,10:23,11:60
-6
- 23814 multiletter control sequences out of 65536+600000
- 139 fonts using 38816223 bytes
- 79i,12n,84p,1329b,521s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 21296 strings out of 494480
+ 156262,794899 words of node,token memory allocated
+ 64906 words of node memory still in use:
+   5 hlist, 1 vlist, 2 rule, 101 glue, 10167 glyph, 507 attribute, 201 glue_spec
+, 507 attribute_list, 3 shape, 4 write nodes
+   avail lists: 1:2,2:309,3:162,4:64,5:4091,6:2664,7:2448,8:52,9:240,10:24,11:59
+4
+ 23935 multiletter control sequences out of 65536+600000
+ 203 fonts using 54477119 bytes
+ 79i,14n,84p,1329b,521s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/adforn/OrnementsADF.enc}</home/ed
 lab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-BookIt.ttf></home/
 edlab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-Light.ttf></home
@@ -3464,13 +3400,12 @@ edlab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-Light.ttf></home
 e/edlab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-Medium.ttf></h
 ome/edlab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-Bold.ttf></h
 ome/edlab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-Book.ttf></u
-sr/share/texmf/fonts/opentype/public/lm/lmmono8-regular.otf></usr/share/texlive/
-texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb>
-Output written on LIVRO.pdf (408 pages, 29308168 bytes).
+sr/share/texlive/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb>
+Output written on LIVRO.pdf (402 pages, 29286190 bytes).
 
-PDF statistics: 1388 PDF objects out of 1440 (max. 8388607)
- 909 compressed objects within 10 object streams
+PDF statistics: 1362 PDF objects out of 1440 (max. 8388607)
+ 893 compressed objects within 9 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
