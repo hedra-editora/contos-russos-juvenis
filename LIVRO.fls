@@ -233,6 +233,8 @@ INPUT ./INPUTS.tex
 INPUT ./INPUTS.tex
 INPUT ./1-fronte.tex
 INPUT ./1-fronte.tex
+INPUT /home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
+INPUT /home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc
 OUTPUT LIVRO.pdf
 INPUT ./3-rosto.tex
 INPUT ./3-rosto.tex
