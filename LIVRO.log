@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.9.13)  12 JUL 2021 21:34
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.9.13)  14 JUL 2021 21:40
  restricted system commands enabled.
 **LIVRO.tex
 (./LIVRO.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.087 seconds
+luaotfload | main : initialization completed in 0.098 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docum
@@ -1871,7 +1871,7 @@ File: ./imgs/cena3.jpg Graphic file (type jpg)
 Package luatex.def Info: ./imgs/cena3.jpg  used on input line 1238.
 (luatex.def)             Requested size: 389.77524pt x 597.43054pt.
 
-Overfull \hbox (61.60199pt too wide) in paragraph at lines 1238--1239
+Overfull \hbox (57.33382pt too wide) in paragraph at lines 1238--1239
 []| [] 
  []
 
@@ -2207,12 +2207,12 @@ File: ./imgs/cena5.jpg Graphic file (type jpg)
 Package luatex.def Info: ./imgs/cena5.jpg  used on input line 3198.
 (luatex.def)             Requested size: 389.77524pt x 597.43054pt.
 
-Overfull \hbox (71.5602pt too wide) in paragraph at lines 3198--3199
+Overfull \hbox (56.62268pt too wide) in paragraph at lines 3198--3199
 []| [] 
  []
 
 
-LaTeX Warning: Float too large for page by 64.90575pt on input line 3199.
+LaTeX Warning: Float too large for page by 57.79256pt on input line 3199.
 
 
 Overfull \vbox (7.90945pt too high) has occurred while \output is active []
@@ -3390,11 +3390,11 @@ LaTeX Warning: There were multiply-defined labels.
 
 Here is how much of LuaTeX's memory you used:
  21314 strings out of 494480
- 156262,794899 words of node,token memory allocated
- 65072 words of node memory still in use:
-   5 hlist, 1 vlist, 2 rule, 101 glue, 10194 glyph, 508 attribute, 201 glue_spec
+ 156263,794899 words of node,token memory allocated
+ 64958 words of node memory still in use:
+   5 hlist, 1 vlist, 2 rule, 101 glue, 10175 glyph, 508 attribute, 201 glue_spec
 , 508 attribute_list, 3 shape, 4 write nodes
-   avail lists: 1:4,2:333,3:159,4:63,5:4098,6:2696,7:2448,8:56,9:253,10:24,11:59
+   avail lists: 1:2,2:333,3:159,4:65,5:4097,6:2696,7:2448,8:56,9:253,10:24,11:59
 4
  23946 multiletter control sequences out of 65536+600000
  208 fonts using 55107623 bytes
@@ -3409,7 +3409,7 @@ ome/edlab/texmf/tex/fonts/BigCity.Grotesque.Pro/BigCityGrotesquePro-Book.ttf></u
 sr/share/texmf/fonts/opentype/public/lm/lmmono8-regular.otf></usr/share/texlive/
 texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb>
-Output written on LIVRO.pdf (402 pages, 29327585 bytes).
+Output written on LIVRO.pdf (402 pages, 29326724 bytes).
 
 PDF statistics: 1369 PDF objects out of 1440 (max. 8388607)
  897 compressed objects within 9 object streams
